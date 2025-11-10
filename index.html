@@ -1,88 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>WY MovieBox</title>
-<link rel="stylesheet" href="style.css">
-<script src="https://cdn.tailwindcss.com"></script>
-<script>
-  // Tailwind Configuration for Dark Theme and Primary Color
-  tailwind.config = {
-    theme: {
-      extend: {
-        colors: {
-          primary: '#00bcd4',
-          darkbg: '#0a0a0a',
-          midbg: '#1a1a1a'
-        },
-        fontFamily: {
-          sans: ['Inter', 'sans-serif'],
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="title">WY MovieBox</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";
+        import { getAuth, signInAnonymously, signInWithCustomToken, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
+        import { getFirestore, doc, getDoc, addDoc, setDoc, updateDoc, deleteDoc, onSnapshot, collection, query, where, getDocs, setLogLevel } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
+        
+        // Canvas Environment Variables
+        const appId = typeof __app_id !== 'undefined' ? __app_id : 'default-app-id';
+        let firebaseConfig = {};
+        try {
+            firebaseConfig = JSON.parse(typeof __firebase_config !== 'undefined' ? __firebase_config : '{}');
+        } catch (e) {
+            console.error("Error parsing __firebase_config:", e);
         }
-      }
-    }
-  }
-</script>
+        const initialAuthToken = typeof __initial_auth_token !== 'undefined' ? __initial_auth_token : null;
+
+        if (Object.keys(firebaseConfig).length > 0) {
+            const app = initializeApp(firebaseConfig);
+            window.db = getFirestore(app);
+            window.auth = getAuth(app);
+
+            // Global authentication process
+            onAuthStateChanged(window.auth, async (user) => {
+                if (user) {
+                    console.log("Authenticated user:", user.uid);
+                } else {
+                    console.log("No user signed in. Attempting sign-in...");
+                    try {
+                        if (initialAuthToken) {
+                            await signInWithCustomToken(window.auth, initialAuthToken);
+                        } else {
+                            await signInAnonymously(window.auth);
+                        }
+                        window.initializeApp();
+                    } catch (error) {
+                        console.error("Firebase Sign-in Error:", error);
+                    }
+                }
+            });
+            
+            // Expose Firestore functions globally
+            window.firestore = {
+                doc, getDoc, addDoc, setDoc, updateDoc, deleteDoc, onSnapshot, collection, query, where, getDocs, 
+                getPublicCollectionRef: (collectionName) => collection(window.db, `artifacts/${appId}/public/data/${collectionName}`)
+            };
+
+        } else {
+             console.warn("Firebase configuration is missing. Firestore operations will not work.");
+             window.initializeApp();
+        }
+
+    </script>
+    <link rel="stylesheet" href="style.css"> 
 </head>
-<body class="bg-darkbg text-white min-h-screen pb-24 font-sans transition-colors duration-500" id="body-root">
+<body id="body-root" class="bg-darkbg text-white min-h-screen pb-20 transition-colors duration-300">
 
-<div class="max-w-4xl mx-auto px-4">
+    <header id="header-sticky" class="sticky top-0 z-30 bg-darkbg p-4 border-b border-gray-700 shadow-xl">
+        <div class="max-w-4xl mx-auto flex justify-between items-center">
+            <h1 id="main-title" class="text-3xl font-extrabold text-primary" data-i18n="title">WY MovieBox</h1>
+        </div>
+        
+        <div id="menu-bar" class="max-w-4xl mx-auto mt-4 flex space-x-3 overflow-x-auto whitespace-nowrap py-1">
+            <button class="menu-btn active-category bg-primary text-black font-semibold px-4 py-2 rounded-full text-sm transition-all duration-200 hover:bg-opacity-90" data-category="action" data-i18n="action" onclick="showCategory('action', this)">လှုပ်ရှားမှု</button>
+            <button class="menu-btn bg-gray-800 text-white font-semibold px-4 py-2 rounded-full text-sm transition-all duration-200 hover:bg-gray-700" data-category="drama" data-i18n="drama" onclick="showCategory('drama', this)">ဒရာမာ</button>
+            <button class="menu-btn bg-gray-800 text-white font-semibold px-4 py-2 rounded-full text-sm transition-all duration-200 hover:bg-gray-700" data-category="cartoon" data-i18n="cartoon" onclick="showCategory('cartoon', this)">ကာတွန်း</button>
+            <button class="menu-btn bg-gray-800 text-white font-semibold px-4 py-2 rounded-full text-sm transition-all duration-200 hover:bg-gray-700" data-category="romance" data-i18n="romance" onclick="showCategory('romance', this)">အချစ်</button>
+            <button class="menu-btn bg-gray-800 text-white font-semibold px-4 py-2 rounded-full text-sm transition-all duration-200 hover:bg-gray-700" data-category="myanmar" data-i18n="myanmar" onclick="showCategory('myanmar', this)">မြန်မာ</button>
+        </div>
+    </header>
 
-  <div id="header-sticky" class="sticky top-0 z-20 bg-darkbg pt-5 shadow-2xl shadow-darkbg/80 transition-colors duration-500">
-    
-    <h1 id="main-title" class="text-2xl pb-3 font-extrabold text-center tracking-wider text-primary">
-      WY Movie<span class="text-white" id="title-box">Box</span>
-    </h1>
+    <main class="max-w-4xl mx-auto p-4">
 
-    <div id="menu-bar" class="flex justify-between mx-auto my-2 px-0 sm:px-4">
-      <button class="menu-btn transition-all duration-300 bg-gray-800 text-white px-2 py-1.5 rounded-full text-sm font-medium hover:bg-gray-700 active-category" data-category="action" onclick="window.showCategory('action', this)" data-i18n="action">Action</button>
-      <button class="menu-btn transition-all duration-300 bg-gray-800 text-white px-2 py-1.5 rounded-full text-sm font-medium hover:bg-gray-700" data-category="drama" onclick="window.showCategory('drama', this)" data-i18n="drama">Drama</button>
-      <button class="menu-btn transition-all duration-300 bg-gray-800 text-white px-2 py-1.5 rounded-full text-sm font-medium hover:bg-gray-700" data-category="cartoon" onclick="window.showCategory('cartoon', this)" data-i18n="cartoon">Cartoon</button>
-      <button class="menu-btn transition-all duration-300 bg-gray-800 text-white px-2 py-1.5 rounded-full text-sm font-medium hover:bg-gray-700" data-category="romance" onclick="window.showCategory('romance', this)" data-i18n="romance">Romance</button>
-      <button class="menu-btn transition-all duration-300 bg-gray-800 text-white px-2 py-1.5 rounded-full text-sm font-medium hover:bg-gray-700" data-category="myanmar" onclick="window.showCategory('myanmar', this)" data-i18n="myanmar">Myanmar</button>
-    </div>
-    
-    <div class="flex items-center justify-center mb-6 mt-4">
-      <p id="current-movie-title" class="text-center text-sm text-gray-400 truncate" data-i18n="selectMovie">Select a movie below.</p>
-    </div>
+        <div id="player-container" class="w-full max-w-3xl mx-auto rounded-xl overflow-hidden relative shadow-2xl shadow-primary/30 bg-black mb-6 aspect-video">
+            
+            <iframe id="iframePlayer" class="w-full h-full rounded-xl absolute top-0 left-0" 
+                    src="https://www.youtube.com/embed/YE7VzlLTP-4?autoplay=0" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+            </iframe>
 
-    <div id="player-container" class="w-full max-w-3xl mx-auto rounded-xl overflow-hidden relative shadow-2xl shadow-primary/30 bg-black mb-6 aspect-video">
-      
-      
-      <iframe id="iframePlayer" class="w-full h-full rounded-xl absolute top-0 left-0 hidden" src="" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            <button onclick="toggleFullScreen()" class="absolute top-4 right-4 bg-black/50 hover:bg-black/70 p-2 rounded-full text-white transition duration-200 z-10">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/></svg>
+            </button>
+        </div>
 
-      <button class="absolute bottom-3 right-4 bg-black/50 text-white rounded-lg p-2 text-xl hover:bg-black/75 transition duration-150 z-player-btn" onclick="window.toggleFullScreen()" title="Toggle Fullscreen">
-        &#x26F6;
-      </button>
-      <button id="favorite-btn" class="absolute top-3 right-4 text-white hover:scale-110 transition duration-150 z-player-btn" onclick="window.toggleFavorite()" title="Add to Favorites">
-        <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
-      </button>
-    </div>
-  </div>
-  <div id="movies" class="custom-scrollbar-hide flex justify-center flex-wrap gap-3 p-2 pt-4">
-    </div>
+        <div class="max-w-3xl mx-auto flex justify-between items-center mb-6 px-2">
+            <p id="current-movie-title" class="text-xl font-semibold text-white/90" data-i18n="selectMovie">ရုပ်ရှင်ကို ရွေးချယ်ပါ</p>
+            
+            <button id="favorite-btn" onclick="toggleFavorite()" class="p-3 rounded-full transition duration-300 shadow-lg text-gray-500 hover:text-red-500">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+            </button>
+        </div>
 
-</div>
+        <section id="movies" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 justify-items-center">
+            </section>
+        
+        <div id="custom-alert-modal" class="hidden fixed inset-0 bg-black/70 z-50 flex items-center justify-center p-4" onclick="closeCustomAlert()">
+            <div class="bg-midbg p-6 rounded-lg shadow-2xl max-w-sm w-full text-white" onclick="event.stopPropagation()">
+                <h3 class="text-xl font-bold mb-3 text-primary" id="alert-title"></h3>
+                <p id="alert-message" class="mb-4"></p>
+                <button onclick="closeCustomAlert()" class="w-full bg-primary text-black font-semibold py-2 rounded-lg hover:bg-opacity-90 transition duration-200">OK</button>
+            </div>
+        </div>
 
-<div class="fixed bottom-0 left-0 w-full flex justify-around bg-midbg border-t border-gray-700 p-3 shadow-2xl shadow-black/80 transition-colors duration-500" id="nav-bar">
-  <button class="nav-btn text-primary font-bold flex flex-col items-center" data-nav="home" onclick="window.changeNav(this)">
-    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-    <span class="text-xs mt-1" data-i18n="navHome">Home</span>
-  </button>
-  <button class="nav-btn text-gray-400 hover:text-white transition-colors flex flex-col items-center" data-nav="trending" onclick="window.changeNav(this)">
-    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.8 17.8 21 21"/><path d="M5.88 5.88a10 10 0 1 0 14.2 14.2"/></svg>
-    <span class="text-xs mt-1" data-i18n="navTrending">Trending</span>
-  </button>
-  <button class="nav-btn text-gray-400 hover:text-white transition-colors flex flex-col items-center" data-nav="favorites" onclick="window.changeNav(this)">
-    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
-    <span class="text-xs mt-1" data-i18n="navFavorites">Favorites</span>
-  </button>
-  <button class="nav-btn text-gray-400 hover:text-white transition-colors flex flex-col items-center" data-nav="profile" onclick="window.changeNav(this)">
-    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 4 0 0 0-4-4H9a4 4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-    <span class="text-xs mt-1" data-i18n="navProfile">Profile</span>
-  </button>
-</div>
+    </main>
 
-<script src="script.js"></script>
+    <nav id="nav-bar" class="fixed bottom-0 left-0 right-0 bg-midbg border-t border-gray-700 shadow-2xl shadow-black/80 z-40">
+        <div class="max-w-xl mx-auto flex justify-around items-center h-16">
+            
+            <button class="nav-btn flex flex-col items-center justify-center space-y-1 p-2 text-primary font-bold transition-colors duration-200" data-nav="home" onclick="changeNav(this)">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M10 17v-6l2-2 2 2v6h5V8l-7-6-7 6v9h5z"/></svg>
+                <span class="text-xs" data-i18n="navHome">မူလစာမျက်နှာ</span>
+            </button>
+            
+            <button class="nav-btn flex flex-col items-center justify-center space-y-1 p-2 text-gray-400 hover:text-white transition-colors duration-200" data-nav="trending" onclick="changeNav(this)">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 1.5l-4 4-4-4M6.5 18.5l4-4 4 4M1 12h22"/></svg>
+                <span class="text-xs" data-i18n="navTrending">ခေတ်စားနေသည်</span>
+            </button>
+
+            <button class="nav-btn flex flex-col items-center justify-center space-y-1 p-2 text-gray-400 hover:text-white transition-colors duration-200" data-nav="favorites" onclick="changeNav(this)">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                <span class="text-xs" data-i18n="navFavorites">အနှစ်သက်ဆုံး</span>
+            </button>
+
+            <button class="nav-btn flex flex-col items-center justify-center space-y-1 p-2 text-gray-400 hover:text-white transition-colors duration-200" data-nav="profile" onclick="changeNav(this)">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                <span class="text-xs" data-i18n="navProfile">အသုံးပြုသူ</span>
+            </button>
+        </div>
+    </nav>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
