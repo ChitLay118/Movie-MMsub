@@ -9,11 +9,11 @@
         "id": "action1"
       },
       {
-        "title": "Shadow Strike (MP4)",
-        "thumb": "https://placehold.co/110x165/dc2626/ffffff?text=Action+2",
-        "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
-        "type": "mp4",
-        "id": "action2"
+        "title": "ကုလားကာအရမ်းကောင်းတယ်။မြန်မာစာတန်းထိုး",
+        "thumb": "https://i.ytimg.com/vi/8ppDqYnn6bs/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLCU6sRAtBLNOp5KURX0j__tvTdbXA",
+        "src": "https://www.youtube.com/embed/8ppDqYnn6bs?list=PLk2oPREO6X08f2oxHA1EAZDuHCKLe8kSL",
+        "type": "iframe",
+        "id": "drama"
       },
       {
         "title": "Sintel (MP4)",
@@ -43,7 +43,7 @@
         "thumb": "https://placehold.co/110x165/1e40af/ffffff?text=Drama+1",
         "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4",
         "type": "mp4",
-        "id": "drama1"
+        "id": "action6"
       },
       {
         "title": "For Bigger Blazes",
