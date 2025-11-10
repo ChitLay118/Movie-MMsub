@@ -2,33 +2,38 @@
   "videos": {
     "action": [
       {
-        "title": "The Hard Road (Google Drive)",
-        "thumb": "https://i.ibb.co/3mm1SwVj/photo-2025-09-26-02-06-35.jpg",
-        "src": "https://docs.google.com/uc?export=download&id=1oEPsDmZmHQS_ysrz5jeCDksqcIZTBL5x",
+        "title": "Archive.org Video (Iframe)",
+        "thumb": "https://placehold.co/110x165/dc2626/ffffff?text=Archive+1",
+        "src": "https://archive.org/embed/f7515e18b22149d5512ab0db5c13eee5",
+        "type": "iframe",
         "id": "action1"
       },
       {
-        "title": "Shadow Strike",
+        "title": "Shadow Strike (MP4)",
         "thumb": "https://placehold.co/110x165/dc2626/ffffff?text=Action+2",
         "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+        "type": "mp4",
         "id": "action2"
       },
       {
-        "title": "Sintel",
+        "title": "Sintel (MP4)",
         "thumb": "https://placehold.co/110x165/dc2626/ffffff?text=Action+3",
         "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+        "type": "mp4",
         "id": "action3"
       },
       {
-        "title": "Tears of Steel",
+        "title": "Tears of Steel (MP4)",
         "thumb": "https://placehold.co/110x165/dc2626/ffffff?text=Action+4",
         "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+        "type": "mp4",
         "id": "action4"
       },
       {
-        "title": "Volkswagen GTI Review",
+        "title": "Volkswagen GTI Review (MP4)",
         "thumb": "https://placehold.co/110x165/dc2626/ffffff?text=Action+5",
         "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4",
+        "type": "mp4",
         "id": "action5"
       }
     ],
@@ -37,24 +42,28 @@
         "title": "Subaru Outback Test Drive",
         "thumb": "https://placehold.co/110x165/1e40af/ffffff?text=Drama+1",
         "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4",
+        "type": "mp4",
         "id": "drama1"
       },
       {
         "title": "For Bigger Blazes",
         "thumb": "https://placehold.co/110x165/1e40af/ffffff?text=Drama+2",
         "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+        "type": "mp4",
         "id": "drama2"
       },
       {
         "title": "For Bigger Fun",
         "thumb": "https://placehold.co/110x165/1e40af/ffffff?text=Drama+3",
         "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+        "type": "mp4",
         "id": "drama3"
       },
       {
         "title": "A Quiet Life",
         "thumb": "https://placehold.co/110x165/1e40af/ffffff?text=Drama+5",
         "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+        "type": "mp4",
         "id": "drama5"
       }
     ],
@@ -63,18 +72,21 @@
         "title": "For Bigger Escapes",
         "thumb": "https://placehold.co/110x165/059669/ffffff?text=Cartoon+1",
         "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+        "type": "mp4",
         "id": "cartoon1"
       },
       {
         "title": "We Are Going On Bullrun",
         "thumb": "https://placehold.co/110x165/059669/ffffff?text=Cartoon+2",
         "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
+        "type": "mp4",
         "id": "cartoon2"
       },
       {
         "title": "Tiny Toon Adventures",
         "thumb": "https://placehold.co/110x165/059669/ffffff?text=Cartoon+3",
         "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+        "type": "mp4",
         "id": "cartoon3"
       }
     ],
@@ -83,12 +95,14 @@
         "title": "Starlight Kiss",
         "thumb": "https://placehold.co/110x165/f97316/ffffff?text=Romance+1",
         "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+        "type": "mp4",
         "id": "romance1"
       },
       {
         "title": "A Night in June",
         "thumb": "https://placehold.co/110x165/f97316/ffffff?text=Romance+2",
         "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+        "type": "mp4",
         "id": "romance2"
       }
     ],
@@ -97,12 +111,14 @@
         "title": "ချစ်မြန်မာ (Myanmar 1)",
         "thumb": "https://placehold.co/110x165/4f46e5/ffffff?text=မြန်မာ+1",
         "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+        "type": "mp4",
         "id": "myanmar1"
       },
       {
         "title": "အေးချမ်းသော (Myanmar 2)",
         "thumb": "https://placehold.co/110x165/4f46e5/ffffff?text=မြန်မာ+2",
         "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+        "type": "mp4",
         "id": "myanmar2"
       }
     ]
