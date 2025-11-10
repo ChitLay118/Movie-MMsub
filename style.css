@@ -1,25 +1,36 @@
-/* Hides the scrollbar for the Movie List */
-.custom-scrollbar-hide {
+/* This file contains the custom CSS for the WY MovieBox application.
+   It primarily sets up the custom colors and fixes display issues for various browsers.
+*/
+
+/* Custom Tailwind Configuration (Primary color is a warm yellow/amber) */
+:root {
+    --color-primary: #f59e0b; /* Amber 500 */
+}
+/* Define custom classes to be used in script.js logic */
+.text-primary { color: var(--color-primary); }
+.bg-primary { background-color: var(--color-primary); }
+
+/* Custom Background Colors for Dark Mode */
+.bg-darkbg { background-color: #1a1a1a; } /* Darker charcoal for body */
+.bg-midbg { background-color: #262626; } /* Slightly lighter charcoal for cards/navbar */
+
+/* General Styling */
+body { 
+    font-family: 'Inter', sans-serif; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+/* Fix for Fullscreen video background */
+#player-container:-webkit-full-screen { background-color: black; }
+#player-container:-moz-full-screen { background-color: black; }
+#player-container:-ms-full-screen { background-color: black; }
+#player-container:fullscreen { background-color: black; }
+
+/* Hide scrollbar for category menu (on webkit browsers) */
+#menu-bar { 
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
 }
-.custom-scrollbar-hide::-webkit-scrollbar {
-    display: none; /* Chrome, Safari, Opera */
-}
-
-/* Custom utility to ensure the fullscreen button is on top of controls */
-.z-player-btn {
-    z-index: 10;
-}
-  
-/* Simple Animation for Error/Feedback */
-@keyframes shake {
-    0% { transform: translateX(0); }
-    25% { transform: translateX(-5px); }
-    50% { transform: translateX(5px); }
-    75% { transform: translateX(-5px); }
-    100% { transform: translateX(0); }
-}
-.shake-error {
-    animation: shake 0.3s ease-in-out;
+#menu-bar::-webkit-scrollbar {
+    display: none; /* Chrome, Safari and Opera */
 }
