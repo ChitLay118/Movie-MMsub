@@ -1,0 +1,25 @@
+/* Hides the scrollbar for the Movie List */
+.custom-scrollbar-hide {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+.custom-scrollbar-hide::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+}
+
+/* Custom utility to ensure the fullscreen button is on top of controls */
+.z-player-btn {
+    z-index: 10;
+}
+  
+/* Simple Animation for Error/Feedback */
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+.shake-error {
+    animation: shake 0.3s ease-in-out;
+}
