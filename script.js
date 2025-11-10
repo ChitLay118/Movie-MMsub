@@ -2,10 +2,6 @@
  * WY MovieBox - Main JavaScript Logic
  * This script handles data fetching, state management, UI rendering,
  * and user interactions (navigation, video playing, favorites, settings).
- *
- * NOTE: The script is designed to run in a browser environment (like Chrome/Firefox).
- * For fetching the JSON file to work locally, you might need to use a simple
- * local web server (e.g., VS Code's Live Server extension).
  */
 
 // Global state variables
@@ -297,8 +293,7 @@ window.changeNav = function(btn) {
 
 /**
  * Renders the movie list for a specific category.
- * @param {string} category - The category key (e.g., 'action').
- * @param {HTMLElement} clickedButton - The button element that was clicked.
+ * (Rest of the rendering functions remain the same)
  */
 window.showCategory = function(category, clickedButton) {
     const moviesContainer = document.getElementById('movies');
@@ -335,26 +330,19 @@ window.showCategory = function(category, clickedButton) {
     });
 }
 
-/**
- * Renders the last 10 movies from all categories combined (Trending).
- */
 function displayTrending() {
     const moviesContainer = document.getElementById('movies');
     moviesContainer.innerHTML = '';
     
     const t = translations[currentSettings.language] || translations.english;
     
-    // 1. Aggregate all movies
     let allMovies = [];
     for (const category in videos) {
         allMovies = allMovies.concat(videos[category]);
     }
 
-    // 2. Filter for the last 10 items 
-    // We assume the later items in the JSON are "newer" or "trending".
     const trendingMovies = allMovies.slice(-10); 
     
-    // 3. Add header first
     moviesContainer.innerHTML = `<h2 class="text-xl font-bold text-center w-full mb-4 text-white">${t.trendingHeader}</h2>`;
     
     if (trendingMovies.length === 0) {
@@ -362,15 +350,11 @@ function displayTrending() {
         return;
     }
     
-    // 4. Render the list
     trendingMovies.forEach(movie => {
         moviesContainer.appendChild(createMovieCard(movie));
     });
 }
 
-/**
- * Renders the list of favorite movies.
- */
 function displayFavorites() {
     const moviesContainer = document.getElementById('movies');
     moviesContainer.innerHTML = '';
@@ -392,10 +376,6 @@ function displayFavorites() {
     });
 }
 
-
-/**
- * Renders the user profile and settings form.
- */
 function displayProfileSettings() {
     const moviesContainer = document.getElementById('movies');
     const t = translations[currentSettings.language] || translations.english;
@@ -465,12 +445,8 @@ function displayProfileSettings() {
 // 5. HELPER FUNCTIONS
 // -------------------------------------------------------------------------
 
-/**
- * Creates a movie card DOM element.
- * @param {object} movie - The movie object.
- * @returns {HTMLElement} - The created card element.
- */
 function createMovieCard(movie) {
+    // (createMovieCard function remains the same)
     const isFav = favorites.includes(movie.id);
     const t = translations[currentSettings.language] || translations.english;
     const card = document.createElement('div');
@@ -496,11 +472,6 @@ function createMovieCard(movie) {
     return card;
 }
 
-/**
- * Finds a movie object by its ID across all categories.
- * @param {string} id 
- * @returns {object|null}
- */
 function findMovieById(id) {
     for (const category in videos) {
         const movie = videos[category].find(m => m.id === id);
@@ -510,7 +481,7 @@ function findMovieById(id) {
 }
 
 /**
- * Plays the selected video.
+ * Plays the selected video, switching between <video> and <iframe> based on link type.
  * @param {Event} event 
  * @param {string} movieId 
  */
@@ -518,7 +489,8 @@ window.playVideo = function(event, movieId) {
     event.stopPropagation();
 
     const movie = findMovieById(movieId);
-    const player = document.getElementById('player');
+    const videoPlayer = document.getElementById('player');
+    const iframePlayer = document.getElementById('iframePlayer');
     const source = document.getElementById('videoSource');
     const titleEl = document.getElementById('current-movie-title');
     const t = translations[currentSettings.language] || translations.english;
@@ -526,11 +498,27 @@ window.playVideo = function(event, movieId) {
     if (movie) {
         currentPlayingMovie = movie; 
         
-        source.src = movie.src;
-        player.load();
-        player.play().catch(error => {
-            console.error("Autoplay failed:", error);
-        }); 
+        if (movie.type === 'iframe') {
+            // Use iframe player
+            videoPlayer.pause();
+            source.src = '';
+            videoPlayer.classList.add('hidden');
+            iframePlayer.classList.remove('hidden');
+            iframePlayer.src = movie.src; // Set iframe source
+            console.log("Playing via Iframe:", movie.src);
+        } else {
+            // Use HTML5 video player (default for mp4/stream)
+            iframePlayer.src = ''; // Clear iframe source
+            iframePlayer.classList.add('hidden');
+            videoPlayer.classList.remove('hidden');
+            
+            source.src = movie.src;
+            videoPlayer.load();
+            videoPlayer.play().catch(error => {
+                console.error("Autoplay failed:", error);
+            }); 
+            console.log("Playing via HTML5 Video:", movie.src);
+        }
 
         titleEl.textContent = `${t.nowPlaying}: ${movie.title}`;
         updateFavoriteButtonState(movie.id);
@@ -544,30 +532,33 @@ window.playVideo = function(event, movieId) {
  */
 window.toggleFullScreen = function() {
     const playerContainer = document.getElementById('player-container');
-    const player = document.getElementById('player');
+    const videoPlayer = document.getElementById('player');
+    const iframePlayer = document.getElementById('iframePlayer');
+    const activePlayer = videoPlayer.classList.contains('hidden') ? iframePlayer : videoPlayer;
     
+    // Note: Fullscreen for the iframe's content depends on the external site's allowance
+    // But we can maximize the container itself.
+
     if (!document.fullscreenElement) {
         playerContainer.requestFullscreen().then(() => {
-            player.style.height = '100vh';
-            player.style.width = '100vw';
-            player.classList.remove('rounded-xl');
+            // Apply styles to the active player and container
             playerContainer.classList.remove('rounded-xl', 'shadow-2xl', 'shadow-primary/30');
+            // Make the active player fill the screen
+            activePlayer.style.objectFit = 'contain';
+            activePlayer.classList.remove('rounded-xl');
         }).catch(err => {
             console.error(`Error attempting to enable full-screen mode: ${err.message}`);
         });
     } else {
         document.exitFullscreen().then(() => {
-            player.style.height = 'auto';
-            player.style.width = '100%';
-            player.classList.add('rounded-xl');
+            // Restore original styles
             playerContainer.classList.add('rounded-xl', 'shadow-2xl', 'shadow-primary/30');
+            activePlayer.style.objectFit = 'contain'; // Restore default object-fit
+            activePlayer.classList.add('rounded-xl');
         });
     }
 }
 
-/**
- * Toggles the favorite status of the currently playing movie.
- */
 window.toggleFavorite = function() {
     const favBtn = document.getElementById('favorite-btn');
     const t = translations[currentSettings.language] || translations.english;
@@ -598,11 +589,6 @@ window.toggleFavorite = function() {
     }
 }
 
-/**
- * Updates the heart icon on the player based on the movie's favorite status.
- * @param {string} movieId 
- * @param {boolean} [explicitState] - Optional explicit state override.
- */
 function updateFavoriteButtonState(movieId, explicitState = null) {
     if (!movieId) return;
     
