@@ -2,125 +2,40 @@
   "videos": {
     "action": [
       {
-        "title": "အိန္ဓိယဇာတ်ကား",
-        "thumb": "https://i.ytimg.com/vi/26Aia0bxOPI/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLB_1V-QZXfFfYVIdBxbfVXQ66KCnA",
-        "src": "https://www.youtube.com/embed/26Aia0bxOPI?list=PLk2oPREO6X08f2oxHA1EAZDuHCKLe8kSL",
-        "type": "iframe",
-        "id": "action1"
+        "title": "YouTube Action Trailer (Embed)",
+        "thumb": "https://placehold.co/110x165/dc2626/ffffff?text=YouTube+Action",
+        "src": "https://www.youtube.com/embed/aqz-KE-bpKQ"
       },
       {
-        "title": "ကုလားကာအရမ်းကောင်းတယ်။မြန်မာစာတန်းထိုး",
-        "thumb": "https://i.ytimg.com/vi/8ppDqYnn6bs/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLCU6sRAtBLNOp5KURX0j__tvTdbXA",
-        "src": "https://www.youtube.com/embed/8ppDqYnn6bs?list=PLk2oPREO6X08f2oxHA1EAZDuHCKLe8kSL",
-        "type": "iframe",
-        "id": "action2"
-      },
-      {
-        "title": "Sintel (MP4)",
-        "thumb": "https://placehold.co/110x165/dc2626/ffffff?text=Action+3",
-        "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
-        "type": "mp4",
-        "id": "action3"
-      },
-      {
-        "title": "Tears of Steel (MP4)",
-        "thumb": "https://placehold.co/110x165/dc2626/ffffff?text=Action+4",
-        "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
-        "type": "mp4",
-        "id": "action4"
-      },
-      {
-        "title": "မြန်မာစာတန်းထိုးကုလားကား",
-        "thumb": "https://i.ytimg.com/vi/WWSkNZ3KxDQ/hqdefault.jpg?sqp=-oaymwFACKgBEF5IWvKriqkDMwgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAHwAQH4Af4EgALoAooCDAgAEAEYZSBgKFIwDw==&rs=AOn4CLDtgCQJxWBQwTqtGqsF-LdrFFowTQ",
-        "src": "https://www.youtube.com/embed/WWSkNZ3KxDQ?list=PLk2oPREO6X08f2oxHA1EAZDuHCKLe8kSL",
-        "type": "iframe",
-        "id": "action5"
+        "title": "MEGA Action Movie (Embed)",
+        "thumb": "https://placehold.co/110x165/dc2626/ffffff?text=MEGA+Action",
+        "src": "https://mega.nz/embed/ABCDEFG#HIJKLMNOPQRSTUVWXYZ" 
       }
     ],
     "drama": [
       {
-        "title": "Subaru Outback Test Drive",
-        "thumb": "https://placehold.co/110x165/1e40af/ffffff?text=Drama+1",
-        "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4",
-        "type": "mp4",
-        "id": "drama1"
+        "title": "YouTube Drama Clips (Embed)",
+        "thumb": "https://placehold.co/110x165/1e40af/ffffff?text=YouTube+Drama",
+        "src": "https://www.youtube.com/embed/S_8nB1c30Qc"
       },
       {
-        "title": "For Bigger Blazes",
-        "thumb": "https://placehold.co/110x165/1e40af/ffffff?text=Drama+2",
-        "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
-        "type": "mp4",
-        "id": "drama2"
-      },
-      {
-        "title": "For Bigger Fun",
-        "thumb": "https://placehold.co/110x165/1e40af/ffffff?text=Drama+3",
-        "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
-        "type": "mp4",
-        "id": "drama3"
-      },
-      {
-        "title": "A Quiet Life",
-        "thumb": "https://placehold.co/110x165/1e40af/ffffff?text=Drama+5",
-        "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
-        "type": "mp4",
-        "id": "drama5"
+        "title": "MEGA Drama Series (Embed)",
+        "thumb": "https://placehold.co/110x165/1e40af/ffffff?text=MEGA+Drama",
+        "src": "https://mega.nz/embed/12345678#90ABCDEFGH"
       }
     ],
     "cartoon": [
       {
-        "title": "For Bigger Escapes",
-        "thumb": "https://placehold.co/110x165/059669/ffffff?text=Cartoon+1",
-        "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
-        "type": "mp4",
-        "id": "cartoon1"
-      },
-      {
-        "title": "We Are Going On Bullrun",
-        "thumb": "https://placehold.co/110x165/059669/ffffff?text=Cartoon+2",
-        "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
-        "type": "mp4",
-        "id": "cartoon2"
-      },
-      {
-        "title": "Tiny Toon Adventures",
-        "thumb": "https://placehold.co/110x165/059669/ffffff?text=Cartoon+3",
-        "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
-        "type": "mp4",
-        "id": "cartoon3"
+        "title": "YouTube Cartoon Show (Embed)",
+        "thumb": "https://placehold.co/110x165/059669/ffffff?text=YouTube+Cartoon",
+        "src": "https://www.youtube.com/embed/YE7VzlLTP-4"
       }
     ],
     "romance": [
-      {
-        "title": "Starlight Kiss",
-        "thumb": "https://placehold.co/110x165/f97316/ffffff?text=Romance+1",
-        "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
-        "type": "mp4",
-        "id": "romance1"
-      },
-      {
-        "title": "A Night in June",
-        "thumb": "https://placehold.co/110x165/f97316/ffffff?text=Romance+2",
-        "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
-        "type": "mp4",
-        "id": "romance2"
-      }
+      
     ],
     "myanmar": [
-      {
-        "title": "ချစ်မြန်မာ (Myanmar 1)",
-        "thumb": "https://placehold.co/110x165/4f46e5/ffffff?text=မြန်မာ+1",
-        "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
-        "type": "mp4",
-        "id": "myanmar1"
-      },
-      {
-        "title": "အေးချမ်းသော (Myanmar 2)",
-        "thumb": "https://placehold.co/110x165/4f46e5/ffffff?text=မြန်မာ+2",
-        "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
-        "type": "mp4",
-        "id": "myanmar2"
-      }
+      
     ]
   },
   "translations": {
