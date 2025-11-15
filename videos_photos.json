@@ -2,56 +2,526 @@
     "videos": {
         "action": [
             {
-                "title": "Live by Night - မြန်မာစာတန်းထိုး (ဇာတ်ကားအပြည့်)",
+                "title": "Live by Night",
                 "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/02/bkd46T4RplawnDjpHoI8mhzTLks-200x300.jpg",
                 "src": "https://mega.nz/embed/mZFzVByI#UqRrLkCu1xgLcHpFKS6CUPb5lno2g6Mvjh-fbANEdoU"
             },
             {
-                "title": "The Raid - မြန်မာစာတန်းထိုး (ဇာတ်ကားအပြည့်)",
-                "thumb": "https://img.youtube.com/vi/m6Q7Kn3p-8g/hqdefault.jpg",
-                "src": "https://www.youtube.com/embed/m6Q7Kn3p-8g?autoplay=1"
+                "title": "The Adjustment Bureau",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/02/A4wKf04g4DCVAWC67uPGozIJPGw-200x300.jpg",
+                "src": "https://mega.nz/embed/mEtjxR6D#nI3JYlTXOIudI0ZM0yWY_ngH4D0PlFswvjEps5ej3uo"
             },
             {
-                "title": "Extraction - မြန်မာစာတန်းထိုး (ဇာတ်ကားအပြည့်)",
-                "thumb": "https://img.youtube.com/vi/L6P3nI6VnlY/hqdefault.jpg",
-                "src": "https://www.youtube.com/embed/L6P3nI6VnlY?autoplay=1"
+                "title": "The Legend of Zorro",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/02/duZDsuIA2uX93Vujtm89oHeTFqE-200x300.jpg",
+                "src": "https://mega.nz/embed/2RlFwIZb#CHgdn-YMkSQ5vQCm-Y4WldQTF8YpGEk0iWW2OUVNg44"
             },
             {
-                "title": "The Bourne Identity - မြန်မာစာတန်းထိုး (ဇာတ်ကားအပြည့်)",
-                "thumb": "https://img.youtube.com/vi/cD-uV6x0WRE/hqdefault.jpg",
-                "src": "https://www.youtube.com/embed/cD-uV6x0WRE?autoplay=1"
+                "title": "Mission to Mars",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/02/beDWEWxgFlt1UWvf2al9cjDol2i-200x300.jpg",
+                "src": "https://mega.nz/embed/PR0WhRbZ#n_0yW9aX8WST-CEV1tKttYm1X2XEZwwLv6WftlKxWlE"
             },
             {
-                "title": "Taken - မြန်မာစာတန်းထိုး (ဇာတ်ကားအပြည့်)",
-                "thumb": "https://img.youtube.com/vi/uPJVJBm9TPA/hqdefault.jpg",
-                "src": "https://www.youtube.com/embed/uPJVJBm9TPA?autoplay=1"
+                "title": "Brothers’ Nest",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/02/b2k7IdRHHuD2HZPZMWsZzRFUHoA-200x300.jpg",
+                "src": "https://mega.nz/embed/3cdlxaCQ#y54CFU4jiavHyDJhbYHj1mYRUtta_uPyCZsyi63WgQ8"
+            },
+            {
+                "title": "Kingdom IV",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/02/qZKKwXyZ92K0mIRpf2FbCkQa7oO-200x300.jpg",
+                "src": "https://mega.nz/embed/OY80HQ7L#JDp9RNRhO3iobNSYk5v9tPA3giICjm8Kxk16s0mehPU"
+            },
+            {
+                "title": "Operation Condor",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/09/vkj5JxVgY1ZYhX4pBHHgwdRNEkl-200x300.jpg",
+                "src": "https://mega.nz/embed/imJF2ZzI#Jijp-uZaZnCL_ijxiZQAnq-S5tdgz0qNE2NCDXMdkqU"
+            },
+            {
+                "title": "Armour of God",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/09/phCpGqCSBWJqutKxj73COACrlPt-200x300.jpg",
+                "src": "https://mega.nz/embed/3zJUyLBT#WWXqY1kypaiy-Pj1TSwZ2f4V5c29R9f5hLlHz9_2kuc"
+            },
+            {
+                "title": "Made in China",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/02/oxjRe2CRSblw0NmA4Uwpu9b4F0j-200x300.jpg",
+                "src": "https://mega.nz/embed/6AVxSQhD#yn0ypdvg7QQcmcBmxtGVRBZ3ZVY_7X-o0aBSA0g95hk"
+            },
+            {
+                "title": "The Perfect Storm",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/09/vJPoxqgpfFNbGi0HyoNsjFeLCio-200x300.jpg",
+                "src": "https://mega.nz/embed/WL5hTTrQ#vYTs-ee6YmNm-cks__0ovzm6IVn2KXjI0ZIWrQGqHq4"
+            },
+            {
+                "title": "Dead Hand",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/09/zB7SKChXDGJD9ADsOhskIFwD5gB-200x300.jpg",
+                "src": "https://mega.nz/embed/7fR1hbga#3zRlTH9VbMzHpqMScF7bR_YAQ1c3xSLuqtfkGr2XT7s"
+            },
+            {
+                "title": "Wolf Warrior 2",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/09/87aWrVqaVhXhblhO7sYHLC2y8TT-200x300.jpg",
+                "src": "https://mega.nz/embed/eyRH2IqY#0TgA_6esfVV4MK2T0B5yKXmhgTAbboPhIgI-9oRE7Rk"
+            },
+            {
+                "title": "Wolf Warrior",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/09/9tGyxJcPUQclngSCcT18oEs80Yn-200x300.jpg",
+                "src": "https://mega.nz/embed/P6RGQRJY#aN2njcQCoH9lj1pDhWmX_X7Kqp5wPnxlS9gDwtAv7bg"
+            },
+            {
+                "title": "Bureau 749",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/09/flykCMw22y6yv8vKnBjmsW3pneo-200x300.jpg",
+                "src": "https://mega.nz/embed/vdty3YqT#HABcWpMK6i91gHTl7hAyIxLhVvGmqFFPGll7hVUBtKM"
+            },
+            {
+                "title": "Vanguard",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/09/mKvw1Ic9enfFlCPBNJGiejRPMUO-200x300.jpg",
+                "src": "https://mega.nz/embed/CiJXxbxZ#paXuXi-5ITIHNTA8LssjM6Tpw-1FGfcyrlY4gHaHP8U"
+            },
+            {
+                "title": "Who Am I?",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/09/9YDKLbBmWGpxG5bO3TBawtNNOAr-200x300.jpg",
+                "src": "https://mega.nz/embed/GrBwWYzJ#8zTu-4guGjv4UGGRi7jO5q9mf3FzzkZZe_EErxc_JBc"
+            },
+            {
+                "title": "Inferno",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/09/cnqvFvjAaV28F1tU7986VVg0WP7-200x300.jpg",
+                "src": "https://mega.nz/embed/675TmD5Z#b8KFiEiDjRTcok_3SEiSmAYqQTo7PwQeWfTds5EbYG0"
+            },
+            {
+                "title": "Monster Island",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/09/5xAIFOgKouHNsSt1yEdqHloJszY-202x300.jpg",
+                "src": "https://mega.nz/embed/3lBBwQ4J#h4fgYQRYWSE-wqQpAXtaW03AhlLm3lJQsjvsTAg4yvc"
+            },
+            {
+                "title": "Civil War",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/09/sh7Rg8Er3tFcN9BpKIPOMvALgZd-200x300.jpg",
+                "src": "https://mega.nz/embed/jxB0UZjR#qOFXPwxx9opuUPZeHekjPyUOq5UnmjeFSiOt6Er_QhM"
+            },
+            {
+                "title": "F1 The Movie",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/09/9tisVFdcQYlUk6Ni1cz38rqFZia-200x300.jpg",
+                "src": "https://mega.nz/embed/igBHxI4B#s3YuTp2mSvb2_XpLvTnQqerZkIQLHmju2hjcAYoz1pE"
+            },
+            {
+                "title": "America Is Sinking",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/09/aJPnqK2kSM257FESP69HPTSWt3p-200x300.jpg",
+                "src": "https://mega.nz/embed/jdkklBDA#nQm_ImmG_M6SNEyG0gB4xK_QPpeMMIGkQGLYVscdDXA"
+            },
+            {
+                "title": "Osiris",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/09/3YtZHtXPNG5AleisgEatEfZOT2w-200x300.jpg",
+                "src": "https://mega.nz/embed/3JsQWBgA#SjJ4gd5Yhy3wGD22WFex6USbh2A0pkd1LGtCt6WGY24"
+            },
+            {
+                "title": "Red Eagle",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/09/9wnbQ9d9pQqfTe5uVHarZh8aW-200x300.jpg",
+                "src": "https://mega.nz/embed/bENWDR5b#ONPDpcHPvF7Zbuizv6FrgYCo3ZWlhRS7mLcbRl2W0KI"
+            },
+            {
+                "title": "Hitman: Agent Jun",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/dAt3nolyXLEEuXiIXZwv1iikbcA-200x300.jpg",
+                "src": "https://mega.nz/embed/CyADFCgQ#PQa-r41vjqDiPw-1qXV98jRwuNntePV05V2orlZ3Ei0"
+            },
+            {
+                "title": "Hitman: Agent 47",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/cx9AOBOv9Qf5ufZYQMbfTV7w7VY-200x300.jpg",
+                "src": "https://mega.nz/embed/imQWTAgY#WzxBSAH2ZBBijR1X5WiSJSpUVqH3tm9SclCd-Hkv55M"
+            },
+            {
+                "title": "Midway(2019)",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/hj8pyoNnynGeJTAbl7jcLZO8Uhx-200x300.jpg",
+                "src": "https://mega.nz/embed/0A4xyDrK#pa88xnAxRD56OHfhkFxtofLEsQe55RG1aA4BURuJ9Q8"
+            },
+            {
+                "title": "Midway(1976)",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/vCzGV28YFmWubUn1jh8ytagYocR-200x300.jpg",
+                "src": "https://mega.nz/embed/RNx11CIJ#XqEyL2mOkJN5s3RTkaUq2YuNHFJTG_E7n-F2dhkNWcA"
+            },
+            {
+                "title": "Hero",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/vxgZto2Cz7ILHAlmRXt50I2brB2-200x300.jpg",
+                "src": "https://mega.nz/embed/pIoDWJ5a#SvvquGZ0SJEpEuflM6whsQWmusOcZzZ3k7OV8gTDrHw"
+            },
+            {
+                "title": "The New Legend of ShaoLin",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/57kngzlMiKkn6yg5lDfcxNmcYF4-200x300.jpg",
+                "src": "https://mega.nz/embed/zkoRgRxI#QbIw1tsPrbx1AtCjlnx1_f8GeRfno5rJlflylUcQ3PU"
+            },
+            {
+                "title": "Terminator: Dark Fate",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/vqzNJRH4YyquRiWxCCOH0aXggHI-200x300.jpg",
+                "src": "https://mega.nz/embed/jcFVwIyD#fDv3jIQc67XaYPGG7bOdiOZvfVu-St64ecZ7cKagXZ0"
+            },
+            {
+                "title": "Terminator Genisys",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/oZRVDpNtmHk8M1VYy1aeOWUXgbC-200x300.jpg",
+                "src": "https://mega.nz/embed/LJNCECSC#zqIANiAdQZglq5mfJjkjxNCYx3BLNlRG6vl5mu_lNe0"
+            },
+            {
+                "title": "Terminator Salvation",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/gw6JhlekZgtKUFlDTezq3j5JEPK-200x300.jpg",
+                "src": "https://mega.nz/embed/uVFz3IrQ#yHOcjbc2_fK4P-AbA4EqilgI8ieLp2vcfo5KlsUtIX4"
+            },
+            {
+                "title": "Terminator 3",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/vvevzdYIrk2636maNW4qeWmlPFG-200x300.jpg",
+                "src": "https://mega.nz/embed/uc8EyQ7C#pgUhQ6BjrurxTs3pQcqBJKhh2S0lMFcPtIh0dwVqisM"
+            },
+            {
+                "title": "Terminator 2",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/weVXMD5QBGeQil4HEATZqAkXeEc-200x300.jpg",
+                "src": "https://mega.nz/embed/nE8nVCya#kmcPTy_qkHqbCrBNaXgOOwEdwhuNLXdSEIAFHfhx060"
+            },
+            {
+                "title": "The Terminator",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/hzXSE66v6KthZ8nPoLZmsi2G05j-200x300.jpg",
+                "src": "https://mega.nz/embed/fJs3iJhK#7mx0wusKV_LQ44EVZwOfxZCQt9ikm7B_isDt8kEvQeE"
+            },
+            {
+                "title": "Battlefield: Fall of The World",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/jJL2KJNUxxm7SIRBFN56j6Th5ES-200x300.jpg",
+                "src": "https://mega.nz/embed/2EtSVBiK#nOvTVEgWwYw9aykkUBCOU-nNPYABLk6UlIp8UUDBBmE"
+            },
+            {
+                "title": "Air Force One Down",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/nKPoSD4pZ3s3CJ9g3cqWRcQ41TC-200x300.jpg",
+                "src": "https://mega.nz/embed/7FlVFCCB#tkBOyvv4XBKBTDZk170HX5iXtHoBVg7iRVkJ7q64jIo"
+            },
+            {
+                "title": "Air Force One",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/juRFEbyx5JlNuYrZM50vcZmtN78-200x300.jpg",
+                "src": "https://mega.nz/embed/3V0EkIBT#4_JPtg21mfe1l6wMvGm7grEPlr5gBzxDcISZc94J1Yk"
+            },
+            {
+                "title": "Blade: Trinity",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/r6ycjrStmmAqiY1oDjAli9NArCa-200x300.jpg",
+                "src": "https://mega.nz/embed/y3RH0BII#IgO0CgaCTUMKRLWrzv9LGe0nDy4ZWwHjF1-3oopB1kc"
+            },
+            {
+                "title": "Blade II",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/azzTa03g0Fb8HC7O3521qq0oc8Q-200x300.jpg",
+                "src": "https://mega.nz/embed/fm4iVSaT#MrL2NqSFG7oHWxw0crMPl23waJm8nj8PC0mav4i3vnU"
+            },
+            {
+                "title": "Blade",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/hx0sdduAsr4rq03RZKZzglR25z7-200x300.jpg",
+                "src": "https://mega.nz/embed/CrhnWYCL#yx1JGZwQLo8EG_0twzIEOdh9kqnk43Ukmy24lfvs0XY"
+            },
+            {
+                "title": "Absolute Dominion",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/gTqTss9YJLigp0SFVtc4IXmE6zW-200x300.jpg",
+                "src": "https://mega.nz/embed/md8mWIJI#TltiP2-nMJNNiUmsl9W5rIGNwg_IGw-ktjXP0JhCuZk"
+            },
+            {
+                "title": "49",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/nJNbyUFUt3c14CoIjLSn8ZxPw-200x300.jpg",
+                "src": "https://mega.nz/embed/LcNgSZ6L#WQBR-ufLof_FE0-eIXPrmDK5MY5H0Rt0dtDRT0xqnzg"
+            },
+            {
+                "title": "Broken Arrow",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/iBPMwYYJFvdCBkXrwV75peo5Lz2-200x300.jpg",
+                "src": "https://mega.nz/embed/6iJFSTDR#PxZV5_4ilKGIInM0QberTe7lUArTWxnB5egGXpx4xpo"
+            },
+            {
+                "title": "Halabala",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/hUTeK0qiyGTwbq2XodP7T1sfWNl-210x300.jpg",
+                "src": "https://mega.nz/embed/7VMjzRQK#OEQAZLmvaMuT3c10QMx9KlsbMHOxrUZWwfrzMfAhwWM"
+            },
+            {
+                "title": "Dragon Blade",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/m5yyMErIDbdzVLIDXVBG6EzM1oF-200x300.jpg",
+                "src": "https://mega.nz/embed/Hm4TmJzA#G3XBO2QvDTIIeGAf1Gqp_w0ExwTFk3-skysbB7t0wk0"
+            },
+            {
+                "title": "Taandob",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/iplMLlXU1BgmTz4xviILTOlECYL-200x300.jpg",
+                "src": "https://mega.nz/embed/Z7t0SS7T#xDdr1dNg3_fR9hLJl4cCF8Q_ynECsbUoDlC49mVGNfs"
+            },
+            {
+                "title": "Red One",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/cdqLnri3NEGcmfnqwk2TSIYtddg-200x300.jpg",
+                "src": "https://mega.nz/embed/UulGCThI#e9uk5ei5BLs-knSra3Z7hTXepC0_wHRzdQ8YYUM1pSQ"
+            },
+            {
+                "title": "Species III",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/8BelHo8qmaurZjPS9hipSQ79Rr6-200x300.jpg",
+                "src": "https://mega.nz/embed/v9dx1ICY#l6z2QxXAZZySN21CI027AJAA2u0zvTSuwVdThYNE2Cw"
+            },
+            {
+                "title": "Species II",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/8LSBi0bHACZtIiVErUBQ2UXNYLA-200x300.jpg",
+                "src": "https://mega.nz/embed/T4tGBYxS#GnHti23xMfIQIC55wIQmnnLSxVSL_DAGaSBqrjIbiGc"
+            },
+            {
+                "title": "Species",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/cT5wdyo8kT7dycqjrolJ2sHWkFx-200x300.jpg",
+                "src": "https://mega.nz/embed/WpE2WQ5a#pucc6IyCzqkASCFvUOnNXZPKYZf24Spbh-2HJmm_RjQ"
+            },
+            {
+                "title": "Superman(2025)",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/ombsmhYUqR4qqOLOxAyr5V8hbyv-200x300.jpg",
+                "src": "https://mega.nz/embed/l78mRL5B#1RJlNDqeLv47W-OqBU55n2nFdzb8Lal3ucXqCNSEnhc"
+            },
+            {
+                "title": "Maaman",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/a0BsRj9qQu8L2arBAHcbbfrVrB7-200x300.jpg",
+                "src": "https://mega.nz/embed/9rVlTQCb#W4MNKjENxN6-R0SKWuO_LzGcLwSf_ETIQd5W48rRifw"
+            },
+            {
+                "title": "A Special Lady",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/bsmv8sDlVJsrSOHtdrimWxIjDCD-200x300.jpg",
+                "src": "https://mega.nz/embed/qVsgABZJ#hzRMO6l86STADcTrbzArrEW9jrOIn_myvpF24upwsuU"
+            },
+            {
+                "title": "City of Bones",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/zaK1aVn5vXfNwLIDop9U8XA3Q0x-200x300.jpg",
+                "src": "https://mega.nz/embed/ip8jjIhS#ddhcWX3RBnoiLodxulFWpEtF-vIZ0CL3L9bulDgu0NQ"
+            },
+            {
+                "title": "The Pickup",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/vFWvWhfAvij8UIngg2Vf6JV95Cr-200x300.jpg",
+                "src": "https://mega.nz/embed/nRkknKBb#ByRAdtgVacXT8dqMPF2bUvRjYlt66C7MKXGaoQ0fNOQ"
+            },
+            {
+                "title": "The Lone Ranger",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/xRmsqvHnaWmrazJl9bTBqs4LAjp-200x300.jpg",
+                "src": "https://mega.nz/embed/G81i2IDD#mWAj35euk3GoYjkdZXSprRhOzFVuHw4_1lxjPBSgCaM"
+            },
+            {
+                "title": "Broken Sword Hero",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/qWsGQKgrp6wpFXO8ShPbZgpdXDa-200x300.jpg",
+                "src": "https://mega.nz/embed/CFNAkAgT#6uE-kFZmNGgpIB3_QH0owhKcEkfE-Bg-fUFWCrJmr4U"
+            },
+            {
+                "title": "Atlas",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/bcM2Tl5HlsvPBnL8DKP9Ie6vU4r-200x300.jpg",
+                "src": "https://mega.nz/embed/mYF1VZKY#yGrndy7HOHKekDIqAgrhgr3sHpBgHYC-y5JX7RkIRB0"
+            },
+            {
+                "title": "Shang-Chi",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/d08HqqeBQSwN8i8MEvpsZ8Cb438-200x300.jpg",
+                "src": "https://mega.nz/embed/OgdFBT7R#OG2XlCNKdUAQB0FmNm8U4-dfgqI8VhlDcajCQ0TMZyg"
+            },
+            {
+                "title": "Legend Of Deification",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/eDq4dGgNHxPbT3Y5S6mfymsQ0rQ-200x300.jpg",
+                "src": "https://mega.nz/embed/FR8RHATB#L2wcjRE2u1Qz9U6p49GKSUzOo2FSPNs9R3fBkE77wGQ"
+            },
+            {
+                "title": "Wrath of the Titans",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/b9n2R3xZWQ8MVZgndQoV34stS0h-200x300.jpg",
+                "src": "https://mega.nz/embed/sNEhCaZC#KVF5pC6COV8fNT9fhFs9uXBhf9MN8HNSLamMnf71u7M"
+            },
+            {
+                "title": "Clash of the Titans",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/3W6QaC3Vz8UJhr6HRYuGfbNeJCs-200x300.jpg",
+                "src": "https://mega.nz/embed/NAd3kb6Q#QE5xQ4U8OyXxjeYTpAnX4XrUzrzo0AaNEguvXTTpIdM"
+            },
+            {
+                "title": "Kong: Skull Island",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/r2517Vz9EhDhj88qwbDVj8DCRZN-200x300.jpg",
+                "src": "https://mega.nz/embed/ZZdSAKAI#YAkf-1fcWwZf9uLTKYQMYENw8ckp72VrejJfMfX2auY"
+            },
+            {
+                "title": "King Kong",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/6a2HY6UmD7XiDD3NokgaBAXEsD2-200x300.jpg",
+                "src": "https://mega.nz/embed/kA1zyI5B#LFJOTPcCKqHBWtESCInFLCjOEEQ1O77PQgDjVGTG_wQ"
+            },
+            {
+                "title": "Creation of the Gods II",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/dfUCs5HNtGu4fofh83uiE2Qcy3v-200x300.jpg",
+                "src": "https://mega.nz/embed/SElCQS4S#4oQmHprebswyLzmMwzv8hwjT6V7nYLU13MVAmlcNlCo"
+            },
+            {
+                "title": "Creation of the Gods I",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/n3Vy8oJEGqvaFurE7e7QJbF4mGs-200x300.jpg",
+                "src": "https://mega.nz/embed/DIcB3K4D#ABZ5sKLmMnre-UmD49mQjSFQ8U_P4glAydd1A5ng44s"
+            },
+            {
+                "title": "Ne Zha 2",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/293Mo4GWf7Tl0TfAr5NFghqeMy7-200x300.jpg",
+                "src": "https://mega.nz/embed/aA9igAxb#OWdFxbqw6Djn3EgAYR8FpLXYa9P5Vz1LEImFrAyZkhQ"
+            },
+            {
+                "title": "The Longest Day",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/5zmvEofdIlgXrQl9A7e5IOzlnFU-200x300.jpg",
+                "src": "https://mega.nz/embed/eBdWlbDR#GjsUp_VJC71yVNQIVJH41tRVlgNg8lR_Xyn0Y7nWvnE"
+            },
+            {
+                "title": "Edge of Tomorrow",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/nBM9MMa2WCwvMG4IJ3eiGUdbPe6-200x300.jpg",
+                "src": "https://mega.nz/embed/0AtGjK5S#1s13Ei3D4NeYefomfgOI_XmhWU5NWV30YPPMxgh_kXo"
+            },
+            {
+                "title": "Concrete Utopia",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/4l68KHxnPSow8MvnGUpjqLzJtLJ-200x300.jpg",
+                "src": "https://mega.nz/embed/etQERLhI#_0PyhitKQFl56Z9yMZV3K3wV5ZB8LCYOWRcKP_3T8no"
+            },
+            {
+                "title": "Jurassic World Rebirth",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/1RICxzeoNCAO5NpcRMIgg1XT6fm-200x300.jpg",
+                "src": "https://mega.nz/embed/SwIRiBDL#sK42oed5j8ynFFkrE2yCAUz7D4yuEKIYlrVemgUahAM"
+            },
+            {
+                "title": "Soorarai Pottru",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/09/5uimlxPCgAei8JfQUDFEUQLoyyh-200x300.jpg",
+                "src": "https://mega.nz/embed/3c8GwTzK#qEcN3h3CM_dzWXwi3NQEr0DBITwQSVKjMVObGWqowBA"
+            },
+            {
+                "title": "Maa",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/09/kc5n7LJUmvBsVxzAla1ONN8kouP-200x300.jpg",
+                "src": "https://mega.nz/embed/mR9DDbSD#z8gTuRMxFVeGB7Q8mphs9X8g1HPJkAtZ0ftOitfi6fE"
+            },
+            {
+                "title": "Godse",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/09/cR9NesoY99WGQtQPViwbbthAWnt-200x300.jpg",
+                "src": "https://mega.nz/embed/eo43SCJZ#5FuyVAlSYCCuNLjvgvcRpEayjJUM1kE3M4vfvPaT4cs"
+            },
+            {
+                "title": "Kothapallilo Okappudu",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/09/renqstBr6YWrp0J0ngad4dnIrMl-200x300.jpg",
+                "src": "https://mega.nz/embed/KtwiRRjJ#2XVi4nUk4IGGtGR1CJa4DZx9WXzt1LlqPS5l6vqkgGU"
+            },
+            {
+                "title": "The Teacher",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/szlck49swaimG1UlITTiCa2F1Gy-200x300.jpg",
+                "src": "https://mega.nz/embed/jcsBTDSR#tfWEbuLc-D7lSWLufaeIc23F4sat2J1YnWzgH62cbQU"
+            },
+            {
+                "title": "Good Day",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/A87qj6W0SGjlGvFWtqf0i0Froer-200x300.jpg",
+                "src": "https://mega.nz/embed/nhoByCKK#Sl9hFNnlRFpsrmSy382jC1PQGvm0odq3VFgTB2OzjNg"
+            },
+            {
+                "title": "Akkenam",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/1tUVshO5qTfoZZ1lv4AlPFGnTnH-200x300.jpg",
+                "src": "https://mega.nz/embed/q44DnJbA#dHb65xBjIZ_TWqZXqzNbJc0VWol3Ivi3AxxiV6ZVkkA"
+            },
+            {
+                "title": "Badla",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/eKpzbERuhogYTwI3PwfVsAHXnuO-200x300.jpg",
+                "src": "https://mega.nz/embed/flsywJ4B#b2bpSZoJ0xfcU31v5f32Hsx97VbGGA8xvUL5AmiFR8Q"
+            },
+            {
+                "title": "Satyameva Jayate 2",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/y1ebOObyi97slwBTljIifE67PR5-200x300.jpg",
+                "src": "https://mega.nz/embed/OlFBjJQT#ZxNyWx6wkxDhksJXsRHhd4Bdmq1hTdKSwo9Uo_ow-Y4"
+            },
+            {
+                "title": "Satyameva Jayate",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/4cgcfxYE1UoNGISx9CrdhuKsXe3-200x300.jpg",
+                "src": "https://mega.nz/embed/WosQkajb#0hS2A9GjYsLA7YdVf9QiZMbInH0bMlbWzfH0ynLm-Fk"
+            },
+            {
+                "title": "Flight",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/cTidclJOxLIwqmV4zzMSs8goTu1-200x300.jpg",
+                "src": "https://mega.nz/embed/L9pzjbgJ#dR89fgSLsFt6qpIWE-FjOSXZTvU9pHpubAoCtvk_59s"
+            },
+            {
+                "title": "Kalki 2898-AD",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/rstcAnBeCkxNQzNp3YXrF6IP1tW-200x300.jpg",
+                "src": "https://mega.nz/embed/vd1RgTDB#E7NyoASfgVsN_xgOF5sHr-m9fds2_CWmiR2Lz3EtxMQ"
+            },
+            {
+                "title": "Karamsutra",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/akxdNCJQ3wh0bRLRl2p7VaICRXe-200x300.jpg",
+                "src": "https://mega.nz/embed/7xBUCabJ#PWGNIGJ3RXobPShScADer0BSZxlnUxz5lTju51zGER8"
+            },
+            {
+                "title": "Taandob",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/iplMLlXU1BgmTz4xviILTOlECYL-200x300.jpg",
+                "src": "https://mega.nz/embed/Z7t0SS7T#xDdr1dNg3_fR9hLJl4cCF8Q_ynECsbUoDlC49mVGNfs"
+            },
+            {
+                "title": "Six Each",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/mSUD3y15nNurCWZv2DyJwalWo2Z-200x300.jpg",
+                "src": "https://mega.nz/embed/MukDjIIS#9aOxbVCc03L3ojL2wtPwB63JRjPHvzJBajOHiZZtgAk"
+            },
+            {
+                "title": "Gangubai Kathiawadi",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/wHPEKlzg7CaJFCjWlMdZKpCRIDl-200x300.jpg",
+                "src": "https://mega.nz/embed/1us2mJCL#VIaEF2yi97qMeoT4jitFzqI2_KqIYtC-mRC2EIdyGsw"
+            },
+            {
+                "title": "Maaman",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/a0BsRj9qQu8L2arBAHcbbfrVrB7-200x300.jpg",
+                "src": "https://mega.nz/embed/9rVlTQCb#W4MNKjENxN6-R0SKWuO_LzGcLwSf_ETIQd5W48rRifw"
+            },
+            {
+                "title": "Baida",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/op8Edzg2xHeGiprxJDFUt1OdJfh-200x300.jpg",
+                "src": "https://mega.nz/embed/F68h0R7T#9faE21SqegnK0bExk6Kojemw3EfUr8p8MK1UytI5yDU"
+            },
+            {
+                "title": "Kaliyugam",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/hRKMtcIFzJyi59PtULiKQT4vPoA-200x300.jpg",
+                "src": "https://mega.nz/embed/vF8ijKaJ#C4LvYwlLrK6qGhbG5ZHeHk1hXTwnJhTzJ9Fp_VQPQ3A"
+            },
+            {
+                "title": "Detective Sherdil",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/gqLrdGer0xvG5ezas7Qe3alqMzV-200x300.jpg",
+                "src": "https://mega.nz/embed/fQU2TS4b#Kth5oFw96NN7_YHM_g6BaHHSWzp-zGd2fSABNVk0oXE"
+            },
+            {
+                "title": "Ghatikachalam",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/rjxyLloFbnjCHPm3XHBs6SZx3SA-225x300.jpg",
+                "src": "https://mega.nz/embed/b0gB0CqZ#34yfwpOwR0AHfvjm4zEks2yl7IwBZKhuMRNMDduc2ms"
+            },
+            {
+                "title": "The Verdict",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/zDf6wYW85LUQiHFMQJe5wGJuc93-200x300.jpg",
+                "src": "https://mega.nz/embed/jkBTXQzb#K8nMvufOg9jgtDfbHyCdLse672-Pkq8V8TgW5FAojnE"
+            },
+            {
+                "title": "Krack",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/jWzsCbUVeMZy286wNEhhYN3iDSO-200x300.jpg",
+                "src": "https://mega.nz/embed/hUckWQAK#KVSnmAyFLxROTsdIIndZklgtJ9xRc_158LmWT_AIUH4"
+            },
+            {
+                "title": "Jai Gangaajal",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/txveHYPSMXdhUB8sGWGSJhtV6Yb-200x300.jpg",
+                "src": "https://mega.nz/embed/HdlBjSZA#44Dg2tnUabHVnR4PC90Wk0OTIWJ_8pycVpgOZRxm-34"
+            },
+            {
+                "title": "23 (Iravai Moodu)",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/sIULuvuzbf54Fm1U5ckkEbK1Vai-225x300.jpg",
+                "src": "https://mega.nz/embed/SIUBzI7D#ZaT_5SbHtlQj1z5-0iFMBFhqksRy4dQ_BHN9q-hMOfo"
+            },
+            {
+                "title": "AK vs AK",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/4ULEEvH0hDYnbWN3nClrb88sYCF-200x300.jpg",
+                "src": "https://mega.nz/embed/QJExAQzT#WMCZgZFvvfaDjSRzdJQQ4uKR3tvYmxYE3PoSdGihiEI"
+            },
+            {
+                "title": "Sikandar Ka Muqaddar",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/eWUh4rgxtgypgnOa6uGMnUt01ux-200x300.jpg",
+                "src": "https://mega.nz/embed/TYl0wJjD#FP7hZmf1xhJFh5_lePbDDIi7sjJ_xqRevCYvchccYyA"
+            },
+            {
+                "title": "100% Love",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/xDuAT2K7kcN2kM9BP9lwwNqNWCD-200x300.jpg",
+                "src": "https://mega.nz/embed/MhJ3yB7I#3XkLJdNYpUH_YIjCCGM-ePOQwZOASwCAq8O9GVfAGPA"
+            },
+            {
+                "title": "Hindi Medium",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/08/2v0nQd3kYBV0iPNCVHiaLWGb1hg-200x300.jpg",
+                "src": "https://mega.nz/embed/T7QSzB5R#6whukILXSpz8TG8RQ5wRQbIeogwcEf57_WKV2QxdXzw"
             }
         ],
         "drama": [
             {
-                "title": "The Shawshank Redemption - မြန်မာစာတန်းထိုး (ဇာတ်ကားအပြည့်)",
-                "thumb": "https://img.youtube.com/vi/6hB3S9bIaco/hqdefault.jpg",
-                "src": "https://www.youtube.com/embed/6hB3S9bIaco?autoplay=1"
+                "title": "About Family (Korea)",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/02/gGHrBhwk4KpWSykvdVwMfmP2C7b-200x300.jpg",
+                "src": "https://mega.nz/embed/nBU0XJ6Z#AGQW0L8rAl8ldfOj72kNoxiLzvmkcdTPBolrnAHkXV8"
             },
             {
-                "title": "Forrest Gump - မြန်မာစာတန်းထိုး (ဇာတ်ကားအပြည့်)",
-                "thumb": "https://img.youtube.com/vi/bLvqoHBptjg/hqdefault.jpg",
-                "src": "https://www.youtube.com/embed/bLvqoHBptjg?autoplay=1"
+                "title": "The Whole Truth (Thriller/Drama)",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/02/iL3Bx4YOqYdAMlx4czLyygA09MC-200x300.jpg",
+                "src": "https://mega.nz/embed/zRd1GAbR#TvVodEc8Xsv6m4PGjvG_DMMiQTI5s9HSxyYwRSetfJA"
             },
             {
-                "title": "The Pursuit of Happyness - မြန်မာစာတန်းထိုး (ဇာတ်ကားအပြည့်)",
-                "thumb": "https://img.youtube.com/vi/DMOBlEcRuw8/hqdefault.jpg",
-                "src": "https://www.youtube.com/embed/DMOBlEcRuw8?autoplay=1"
-            },
-            {
-                "title": "A Beautiful Mind - မြန်မာစာတန်းထိုး (ဇာတ်ကားအပြည့်)",
-                "thumb": "https://img.youtube.com/vi/aS_d0Ayjw4o/hqdefault.jpg",
-                "src": "https://www.youtube.com/embed/aS_d0Ayjw4o?autoplay=1"
-            },
-            {
-                "title": "The Green Mile - မြန်မာစာတန်းထိုး (ဇာတ်ကားအပြည့်)",
-                "thumb": "https://img.youtube.com/vi/Bg7epsq0OIQ/hqdefault.jpg",
-                "src": "https://www.youtube.com/embed/Bg7epsq0OIQ?autoplay=1"
+                "title": "Blind",
+                "thumb": "https://mmsubmovie.com/wp-content/uploads/2025/09/mAfgDfAXCXcj5lPR5DUeezFrTGA-200x300.jpg",
+                "src": "https://mega.nz/embed/eCoHFKQB#7kC2_-RcqJcz_WEdgrhQFBJcuudNrU98jkn8qyME8ps"
             }
         ],
         "cartoon": [
@@ -158,6 +628,61 @@
                 "title": "ရာဇာဓိပတိ - မြန်မာဇာတ်ကား (အပြည့်အစုံ)",
                 "thumb": "https://img.youtube.com/vi/1A2b3C4d5E6/hqdefault.jpg",
                 "src": "https://www.youtube.com/embed/1A2b3C4d5E6?autoplay=1"
+            },
+            {
+                "title": "မဟူရာရုပ်ရှင်ရုံ (နေတိုး)",
+                "thumb": "https://i.ytimg.com/vi/IdeH-gD3jHw/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDydZr-LqUWkYYeBsERvvNLeR2vzg",
+                "src": "https://www.youtube.com/embed/IdeH-gD3jHw"
+            },
+            {
+                "title": "မိုးမခဓားသမား(နေထူးနိုင်)",
+                "thumb": "https://i.ytimg.com/vi/hidxwHpKAOI/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLCfFCSGtlsbq8amZnpz8PavHzWS9A",
+                "src": "https://www.youtube.com/embed/hidxwHpKAOI?list=PL3IBGpSJCCYDkgEaFgfBawBzaqFcQstW-"
+            },
+            {
+                "title": "ရှိုးမထုတ်တဲ့ဖိုးရှုပ်(နေထူးနိုင်)",
+                "thumb": "https://i.ytimg.com/vi/AXG-1PMRUow/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLAw0f0JPuEeE9vq9ImtqLYu54Toyg",
+                "src": "https://www.youtube.com/embed/AXG-1PMRUow?list=PL3IBGpSJCCYDkgEaFgfBawBzaqFcQstW-"
+            },
+            {
+                "title": "ဘမောင်ကိုဘောင်မခတ်နဲ့(နေထူးနိုင်)",
+                "thumb": "https://i.ytimg.com/vi/iMEkp-ygo3M/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLD7cdIvhRZSBv_3wxWUr2cLl_HbCA",
+                "src": "https://www.youtube.com/embed/iMEkp-ygo3M?list=PL3IBGpSJCCYDkgEaFgfBawBzaqFcQstW-"
+            },
+            {
+                "title": "ဗိုလ်တကာ့ဗိုလ်(နေထူးနိုင်)",
+                "thumb": "https://i.ytimg.com/vi/QIU_qczgluk/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLAaG5Jqsww86KEQsW1xoBehy2W6NQ",
+                "src": "https://www.youtube.com/embed/QIU_qczgluk?list=PL3IBGpSJCCYDkgEaFgfBawBzaqFcQstW-"
+            },
+            {
+                "title": "ဗန်ဒိုစံညိုနှင့်ရှောင်လင်သိုင်:ရာဇာ(နေထူးနိုင်)",
+                "thumb": "https://i.ytimg.com/vi/LsCTgD-ojOM/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLAi69jMJ1UTboeMf0nSETkQ2_xWsw",
+                "src": "https://www.youtube.com/embed/LsCTgD-ojOM?list=PL3IBGpSJCCYDkgEaFgfBawBzaqFcQstW-"
+            },
+            {
+                "title": "မဟာဘီလူး(နေထူးနိုင်)",
+                "thumb": "https://i.ytimg.com/vi/3MJLqDcsfRU/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLDrGALNJBOnAFydp7GlHYnpAt2E1Q",
+                "src": "https://www.youtube.com/embed/3MJLqDcsfRU?list=PL3IBGpSJCCYDkgEaFgfBawBzaqFcQstW-"
+            },
+            {
+                "title": "ဒဏ်ရာ(နေထူးနိုင်)",
+                "thumb": "https://i.ytimg.com/vi/pmUyU6LwizE/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLCFeMzBBzqWFeoGUiljzPYgWeIiTA",
+                "src": "https://www.youtube.com/embed/pmUyU6LwizE?list=PL3IBGpSJCCYDkgEaFgfBawBzaqFcQstW-"
+            },
+            {
+                "title": "မိုးပေါ်ခုန်တက်ကလိုက်ချင်တယ်(နေတိုး)",
+                "thumb": "https://i.ytimg.com/vi/ghtn30mz8jY/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLDJz5yFH53r_O0kdFYhKe-9WHlWkw",
+                "src": "https://www.youtube.com/embed/ghtn30mz8jY?list=PLkQrCHWyqYFlxbGMVqwfl4opvbkATpCu7"
+            },
+            {
+                "title": "ဒီကောင်ဘယ်သူတုန်း(နေတိုး)",
+                "thumb": "https://i.ytimg.com/vi/e4oetvhOSgI/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLB68mt_aWu4C02ZaW8KFDXyoW7Gsg",
+                "src": "https://www.youtube.com/embed/e4oetvhOSgI?list=PLkQrCHWyqYFlxbGMVqwfl4opvbkATpCu7"
+            },
+            {
+                "title": "တာတေကြီး(နေတိုး)",
+                "thumb": "https://i.ytimg.com/vi/3fQUxZgFD9U/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLBMe2zmuLrJsKHhbVkZkw-AOKVweQ",
+                "src": "https://www.youtube.com/embed/3fQUxZgFD9U?list=PLkQrCHWyqYFlxbGMVqwfl4opvbkATpCu7"
             }
         ],
         "trending": [
@@ -208,7 +733,8 @@
             "navHome": "Home",
             "navTrending": "Trending",
             "navFavorites": "Favorites",
-            "navModApp": "Mod App",        "navProfile": "Profile",
+            "navModApp": "Mod App",
+            "navProfile": "Profile",
             "action": "Action",
             "drama": "Drama",
             "cartoon": "Cartoon",
@@ -234,7 +760,8 @@
             "navHome": "မူလစာမျက်နှာ",
             "navTrending": "ခေတ်စားနေသည်",
             "navFavorites": "အနှစ်သက်ဆုံး",
-            "navModApp": "Mod App",        "navProfile": "အသုံးပြုသူ",
+            "navModApp": "Mod App",
+            "navProfile": "အသုံးပြုသူ",
             "action": "လှုပ်ရှားမှု",
             "drama": "ဒရာမာ",
             "cartoon": "ကာတွန်း",
