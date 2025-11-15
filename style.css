@@ -1,36 +1,58 @@
-/* This file contains the custom CSS for the WY MovieBox application.
-   It primarily sets up the custom colors and fixes display issues for various browsers.
-*/
+/* Custom CSS styles if needed, mainly for non-tailwind things or specific overrides */
 
-/* Custom Tailwind Configuration (Primary color is a warm yellow/amber) */
-:root {
-    --color-primary: #f59e0b; /* Amber 500 */
-}
-/* Define custom classes to be used in script.js logic */
-.text-primary { color: var(--color-primary); }
-.bg-primary { background-color: var(--color-primary); }
-
-/* Custom Background Colors for Dark Mode */
-.bg-darkbg { background-color: #1a1a1a; } /* Darker charcoal for body */
-.bg-midbg { background-color: #262626; } /* Slightly lighter charcoal for cards/navbar */
-
-/* General Styling */
-body { 
-    font-family: 'Inter', sans-serif; 
-    transition: background-color 0.3s, color 0.3s; 
-}
-
-/* Fix for Fullscreen video background */
-#player-container:-webkit-full-screen { background-color: black; }
-#player-container:-moz-full-screen { background-color: black; }
-#player-container:-ms-full-screen { background-color: black; }
-#player-container:fullscreen { background-color: black; }
-
-/* Hide scrollbar for category menu (on webkit browsers) */
-#menu-bar { 
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
-}
+/* Hide scrollbar for category menu but allow scrolling */
 #menu-bar::-webkit-scrollbar {
-    display: none; /* Chrome, Safari and Opera */
+    display: none;
+}
+#menu-bar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* Base Dark Theme (Default) */
+.bg-darkbg {
+    background-color: #1A1A1A; 
+}
+.bg-midbg {
+    background-color: #262626; 
+}
+.text-primary {
+    color: #FFD700; 
+}
+
+/* !!! FIX: Active Category Button - Blue Color */
+.active-category-blue {
+    background-color: #3B82F6 !important; /* Tailwind blue-500 */
+    color: white !important;
+}
+
+/* Light Theme Classes (unchanged, but adjusted for new blue color if needed) */
+.light-mode .bg-darkbg {
+    background-color: #F8F8F8; 
+}
+.light-mode .bg-midbg {
+    background-color: #FFFFFF; 
+}
+.light-mode .text-white {
+    color: #1A1A1A; 
+}
+.light-mode .text-primary {
+    color: #CC9900; 
+}
+.light-mode .bg-gray-800 {
+    background-color: #E5E5E5 !important; 
+    color: #1A1A1A !important;
+}
+.light-mode .bg-gray-800:hover {
+    background-color: #CCCCCC !important;
+}
+.light-mode .nav-btn.text-gray-400 {
+    color: #6B7280 !important;
+}
+.light-mode #header-sticky {
+    border-color: #E5E5E5;
+}
+.light-mode .active-category-blue {
+    background-color: #1D4ED8 !important; /* Darker blue for light theme */
+    color: white !important;
 }
