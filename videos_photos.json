@@ -1,103 +1,245 @@
 {
-  "videos": {
-    "action": [
-      {
-        "title": "YouTube Action Trailer (Embed)",
-        "thumb": "https://placehold.co/110x165/dc2626/ffffff?text=YouTube+Action",
-        "src": "https://www.youtube.com/embed/aqz-KE-bpKQ"
-      },
-      {
-        "title": "MEGA Action Movie (Embed)",
-        "thumb": "https://placehold.co/110x165/dc2626/ffffff?text=MEGA+Action",
-        "src": "https://mega.nz/embed/ABCDEFG#HIJKLMNOPQRSTUVWXYZ" 
-      }
-    ],
-    "drama": [
-      {
-        "title": "YouTube Drama Clips (Embed)",
-        "thumb": "https://placehold.co/110x165/1e40af/ffffff?text=YouTube+Drama",
-        "src": "https://www.youtube.com/embed/S_8nB1c30Qc"
-      },
-      {
-        "title": "MEGA Drama Series (Embed)",
-        "thumb": "https://placehold.co/110x165/1e40af/ffffff?text=MEGA+Drama",
-        "src": "https://mega.nz/embed/12345678#90ABCDEFGH"
-      }
-    ],
-    "cartoon": [
-      {
-        "title": "YouTube Cartoon Show (Embed)",
-        "thumb": "https://placehold.co/110x165/059669/ffffff?text=YouTube+Cartoon",
-        "src": "https://www.youtube.com/embed/YE7VzlLTP-4"
-      }
-    ],
-    "romance": [
-      
-    ],
-    "myanmar": [
-      
-    ]
-  },
-  "translations": {
-    "myanmar": {
-      "title": "WY ရုပ်ရှင်သေတ္တာ",
-      "selectMovie": "ရုပ်ရှင်ကို ရွေးချယ်ပါ",
-      "nowPlaying": "ယခုဖွင့်နေသည်",
-      "noFavorites": "မှတ်သားထားသော ဗီဒီယိုများ မရှိသေးပါ",
-      "noContent": "ဤကဏ္ဍတွင် အကြောင်းအရာများ မရှိသေးပါ။",
-      "navHome": "မူလစာမျက်နှာ",
-      "navTrending": "ခေတ်စားနေသည်",
-      "navFavorites": "အနှစ်သက်ဆုံး",
-      "navProfile": "အသုံးပြုသူ",
-      "settingsTitle": "အသုံးပြုသူ ဆက်တင်များ",
-      "settingsName": "နာမည်",
-      "settingsEmail": "အီးမေးလ်",
-      "settingsTheme": "အလင်း/အမှောင် (Theme)",
-      "themeDark": "အမှောင်",
-      "themeLight": "အလင်း",
-      "settingsLanguage": "ဘာသာစကား",
-      "langMyanmar": "မြန်မာ",
-      "langEnglish": "အင်္ဂလိပ်",
-      "saveSettings": "သိမ်းမည်",
-      "favoritesHeader": "အနှစ်သက်ဆုံးများ",
-      "trendingHeader": "ခေတ်စားနေသော ဗီဒီယို (နောက်ဆုံး ၁၀ ပုဒ်)",
-      "action": "လှုပ်ရှားမှု",
-      "drama": "ဒရာမာ",
-      "cartoon": "ကာတွန်း",
-      "romance": "အချစ်",
-      "myanmar": "မြန်မာ",
-      "selectCategory": "ရွေးချယ်ထားသော ကဏ္ဍ",
-      "selectMovieForFavorite": "Favorite မှတ်ရန် ဗီဒီယိုတစ်ခုကို အရင်ဖွင့်ပါ"
+    "videos": {
+        "action": [
+            {
+                "title": "John Wick 1 - မြန်မာစာတန်းထိုး (ဇာတ်ကားအပြည့်)",
+                "thumb": "https://img.youtube.com/vi/C0BMx-qxsP4/hqdefault.jpg",
+                "src": "https://www.youtube.com/embed/C0BMx-qxsP4?autoplay=1"
+            },
+            {
+                "title": "The Raid - မြန်မာစာတန်းထိုး (ဇာတ်ကားအပြည့်)",
+                "thumb": "https://img.youtube.com/vi/m6Q7Kn3p-8g/hqdefault.jpg",
+                "src": "https://www.youtube.com/embed/m6Q7Kn3p-8g?autoplay=1"
+            },
+            {
+                "title": "Extraction - မြန်မာစာတန်းထိုး (ဇာတ်ကားအပြည့်)",
+                "thumb": "https://img.youtube.com/vi/L6P3nI6VnlY/hqdefault.jpg",
+                "src": "https://www.youtube.com/embed/L6P3nI6VnlY?autoplay=1"
+            },
+            {
+                "title": "The Bourne Identity - မြန်မာစာတန်းထိုး (ဇာတ်ကားအပြည့်)",
+                "thumb": "https://img.youtube.com/vi/cD-uV6x0WRE/hqdefault.jpg",
+                "src": "https://www.youtube.com/embed/cD-uV6x0WRE?autoplay=1"
+            },
+            {
+                "title": "Taken - မြန်မာစာတန်းထိုး (ဇာတ်ကားအပြည့်)",
+                "thumb": "https://img.youtube.com/vi/uPJVJBm9TPA/hqdefault.jpg",
+                "src": "https://www.youtube.com/embed/uPJVJBm9TPA?autoplay=1"
+            }
+        ],
+        "drama": [
+            {
+                "title": "The Shawshank Redemption - မြန်မာစာတန်းထိုး (ဇာတ်ကားအပြည့်)",
+                "thumb": "https://img.youtube.com/vi/6hB3S9bIaco/hqdefault.jpg",
+                "src": "https://www.youtube.com/embed/6hB3S9bIaco?autoplay=1"
+            },
+            {
+                "title": "Forrest Gump - မြန်မာစာတန်းထိုး (ဇာတ်ကားအပြည့်)",
+                "thumb": "https://img.youtube.com/vi/bLvqoHBptjg/hqdefault.jpg",
+                "src": "https://www.youtube.com/embed/bLvqoHBptjg?autoplay=1"
+            },
+            {
+                "title": "The Pursuit of Happyness - မြန်မာစာတန်းထိုး (ဇာတ်ကားအပြည့်)",
+                "thumb": "https://img.youtube.com/vi/DMOBlEcRuw8/hqdefault.jpg",
+                "src": "https://www.youtube.com/embed/DMOBlEcRuw8?autoplay=1"
+            },
+            {
+                "title": "A Beautiful Mind - မြန်မာစာတန်းထိုး (ဇာတ်ကားအပြည့်)",
+                "thumb": "https://img.youtube.com/vi/aS_d0Ayjw4o/hqdefault.jpg",
+                "src": "https://www.youtube.com/embed/aS_d0Ayjw4o?autoplay=1"
+            },
+            {
+                "title": "The Green Mile - မြန်မာစာတန်းထိုး (ဇာတ်ကားအပြည့်)",
+                "thumb": "https://img.youtube.com/vi/Bg7epsq0OIQ/hqdefault.jpg",
+                "src": "https://www.youtube.com/embed/Bg7epsq0OIQ?autoplay=1"
+            }
+        ],
+        "cartoon": [
+            {
+                "title": "Spirited Away - မြန်မာစာတန်းထိုး (ဇာတ်ကားအပြည့်)",
+                "thumb": "https://img.youtube.com/vi/ByXuk9QqQkk/hqdefault.jpg",
+                "src": "https://www.youtube.com/embed/ByXuk9QqQkk?autoplay=1"
+            },
+            {
+                "title": "Your Name - မြန်မာစာတန်းထိုး (ဇာတ်ကားအပြည့်)",
+                "thumb": "https://img.youtube.com/vi/3mK2aYt0d_c/hqdefault.jpg",
+                "src": "https://www.youtube.com/embed/3mK2aYt0d_c?autoplay=1"
+            },
+            {
+                "title": "Howl's Moving Castle - မြန်မာစာတန်းထိုး (ဇာတ်ကားအပြည့်)",
+                "thumb": "https://img.youtube.com/vi/iwROgK94zcM/hqdefault.jpg",
+                "src": "https://www.youtube.com/embed/iwROgK94zcM?autoplay=1"
+            },
+            {
+                "title": "My Neighbor Totoro - မြန်မာစာတန်းထိုး (ဇာတ်ကားအပြည့်)",
+                "thumb": "https://img.youtube.com/vi/92a7Hj0ijLs/hqdefault.jpg",
+                "src": "https://www.youtube.com/embed/92a7Hj0ijLs?autoplay=1"
+            },
+            {
+                "title": "Princess Mononoke - မြန်မာစာတန်းထိုး (ဇာတ်ကားအပြည့်)",
+                "thumb": "https://img.youtube.com/vi/4OiMOHRDs14/hqdefault.jpg",
+                "src": "https://www.youtube.com/embed/4OiMOHRDs14?autoplay=1"
+            }
+        ],
+        "romance": [
+            {
+                "title": "The Notebook - မြန်မာစာတန်းထိုး (ဇာတ်ကားအပြည့်)",
+                "thumb": "https://img.youtube.com/vi/BjJcYdEOI0k/hqdefault.jpg",
+                "src": "https://www.youtube.com/embed/BjJcYdEOI0k?autoplay=1"
+            },
+            {
+                "title": "A Walk to Remember - မြန်မာစာတန်းထိုး (ဇာတ်ကားအပြည့်)",
+                "thumb": "https://img.youtube.com/vi/pR6-MV_cCxU/hqdefault.jpg",
+                "src": "https://www.youtube.com/embed/pR6-MV_cCxU?autoplay=1"
+            },
+            {
+                "title": "Me Before You - မြန်မာစာတန်းထိုး (ဇာတ်ကားအပြည့်)",
+                "thumb": "https://img.youtube.com/vi/Eh993__rOxA/hqdefault.jpg",
+                "src": "https://www.youtube.com/embed/Eh993__rOxA?autoplay=1"
+            },
+            {
+                "title": "The Fault in Our Stars - မြန်မာစာတန်းထိုး (ဇာတ်ကားအပြည့်)",
+                "thumb": "https://img.youtube.com/vi/9ItBvH5J6ss/hqdefault.jpg",
+                "src": "https://www.youtube.com/embed/9ItBvH5J6ss?autoplay=1"
+            },
+            {
+                "title": "La La Land - မြန်မာစာတန်းထိုး (ဇာတ်ကားအပြည့်)",
+                "thumb": "https://img.youtube.com/vi/0pdqf4P9MB8/hqdefault.jpg",
+                "src": "https://www.youtube.com/embed/0pdqf4P9MB8?autoplay=1"
+            }
+        ],
+        "myanmar": [
+            {
+                "title": "ရန်သူမျိုးငါ့သွေး - မြန်မာဇာတ်ကား (အပြည့်အစုံ)",
+                "thumb": "https://img.youtube.com/vi/vKx2Xm5qfM4/hqdefault.jpg",
+                "src": "https://www.youtube.com/embed/vKx2Xm5qfM4?autoplay=1"
+            },
+            {
+                "title": "ကျေးဇူးတော် - မြန်မာဇာတ်ကား (အပြည့်အစုံ)",
+                "thumb": "https://img.youtube.com/vi/6wWKhFqN82g/hqdefault.jpg",
+                "src": "https://www.youtube.com/embed/6wWKhFqN82g?autoplay=1"
+            },
+            {
+                "title": "သူရ - မြန်မာဇာတ်ကား (အပြည့်အစုံ)",
+                "thumb": "https://img.youtube.com/vi/3xSqUf2VX_c/hqdefault.jpg",
+                "src": "https://www.youtube.com/embed/3xSqUf2VX_c?autoplay=1"
+            },
+            {
+                "title": "မောင်မယ်သံသာ - မြန်မာဇာတ်ကား (အပြည့်အစုံ)",
+                "thumb": "https://img.youtube.com/vi/V9xUYdE1Q8w/hqdefault.jpg",
+                "src": "https://www.youtube.com/embed/V9xUYdE1Q8w?autoplay=1"
+            },
+            {
+                "title": "ပြည်ကြီးမဏ္ဍိုင် - မြန်မာဇာတ်ကား (အပြည့်အစုံ)",
+                "thumb": "https://img.youtube.com/vi/4K7Qv2t3hY4/hqdefault.jpg",
+                "src": "https://www.youtube.com/embed/4K7Qv2t3hY4?autoplay=1"
+            },
+            {
+                "title": "သိုင်းတော်သား - မြန်မာဇာတ်ကား (အပြည့်အစုံ)",
+                "thumb": "https://img.youtube.com/vi/9K3vQ5wR3tY/hqdefault.jpg",
+                "src": "https://www.youtube.com/embed/9K3vQ5wR3tY?autoplay=1"
+            },
+            {
+                "title": "ရွှေရင်သွေး - မြန်မာဇာတ်ကား (အပြည့်အစုံ)",
+                "thumb": "https://img.youtube.com/vi/7M2vN4qV8pQ/hqdefault.jpg",
+                "src": "https://www.youtube.com/embed/7M2vN4qV8pQ?autoplay=1"
+            },
+            {
+                "title": "သက်လှယောသူ - မြန်မာဇာတ်ကား (အပြည့်အစုံ)",
+                "thumb": "https://img.youtube.com/vi/5T6u7V8w9X0/hqdefault.jpg",
+                "src": "https://www.youtube.com/embed/5T6u7V8w9X0?autoplay=1"
+            },
+            {
+                "title": "ချစ်တဲ့သူရယ် - မြန်မာဇာတ်ကား (အပြည့်အစုံ)",
+                "thumb": "https://img.youtube.com/vi/2X4u5V8s9tR/hqdefault.jpg",
+                "src": "https://www.youtube.com/embed/2X4u5V8s9tR?autoplay=1"
+            },
+            {
+                "title": "ရာဇာဓိပတိ - မြန်မာဇာတ်ကား (အပြည့်အစုံ)",
+                "thumb": "https://img.youtube.com/vi/1A2b3C4d5E6/hqdefault.jpg",
+                "src": "https://www.youtube.com/embed/1A2b3C4d5E6?autoplay=1"
+            }
+        ],
+        "trending": [
+            {
+                "title": "Avatar - မြန်မာစာတန်းထိုး (ဇာတ်ကားအပြည့်)",
+                "thumb": "https://img.youtube.com/vi/5PSNL1qE6VY/hqdefault.jpg",
+                "src": "https://www.youtube.com/embed/5PSNL1qE6VY?autoplay=1"
+            },
+            {
+                "title": "Avengers Endgame - မြန်မာစာတန်းထိုး (ဇာတ်ကားအပြည့်)",
+                "thumb": "https://img.youtube.com/vi/TcMBFSGVi1c/hqdefault.jpg",
+                "src": "https://www.youtube.com/embed/TcMBFSGVi1c?autoplay=1"
+            },
+            {
+                "title": "Spider-Man No Way Home - မြန်မာစာတန်းထိုး (ဇာတ်ကားအပြည့်)",
+                "thumb": "https://img.youtube.com/vi/JfVOs4VSpmA/hqdefault.jpg",
+                "src": "https://www.youtube.com/embed/JfVOs4VSpmA?autoplay=1"
+            },
+            {
+                "title": "Black Panther - မြန်မာစာတန်းထိုး (ဇာတ်ကားအပြည့်)",
+                "thumb": "https://img.youtube.com/vi/xjDjIWPwcPU/hqdefault.jpg",
+                "src": "https://www.youtube.com/embed/xjDjIWPwcPU?autoplay=1"
+            },
+            {
+                "title": "The Batman - မြန်မာစာတန်းထိုး (ဇာတ်ကားအပြည့်)",
+                "thumb": "https://img.youtube.com/vi/mqqft2x_Aa4/hqdefault.jpg",
+                "src": "https://www.youtube.com/embed/mqqft2x_Aa4?autoplay=1"
+            }
+        ]
     },
-    "english": {
-      "title": "WY MovieBox",
-      "selectMovie": "Select a movie below.",
-      "nowPlaying": "Now Playing",
-      "noFavorites": "No favorites added yet.",
-      "noContent": "No content found in this category.",
-      "navHome": "Home",
-      "navTrending": "Trending",
-      "navFavorites": "Favorites",
-      "navProfile": "Profile",
-      "settingsTitle": "User Settings",
-      "settingsName": "Name",
-      "settingsEmail": "Email",
-      "settingsTheme": "Theme (Dark/Light)",
-      "themeDark": "Dark",
-      "themeLight": "Light",
-      "settingsLanguage": "Language",
-      "langMyanmar": "Myanmar",
-      "langEnglish": "English",
-      "saveSettings": "Save Settings",
-      "favoritesHeader": "Favorites",
-      "trendingHeader": "Trending Videos (Last 10)",
-      "action": "Action",
-      "drama": "Drama",
-      "cartoon": "Cartoon",
-      "romance": "Romance",
-      "myanmar": "Myanmar",
-      "selectCategory": "Selected Category",
-      "selectMovieForFavorite": "Please play a movie first to add to favorites."
+    "translations": {
+        "english": {
+            "title": "WY MovieBox",
+            "selectMovie": "Select a Movie",
+            "nowPlaying": "Play Now",
+            "noContent": "No Content Available",
+            "trendingTitle": "Trending Movies",
+            "favoritesTitle": "My Favorites",
+            "noFavorites": "No favorite movies added yet.",
+            "profileTitle": "User Profile",
+            "settingsTitle": "Settings",
+            "languageLabel": "Language:",
+            "themeLabel": "Theme:",
+            "resetData": "Reset App Data",
+            "adultContent": "Adult Content (18+)",
+            "langMyanmar": "Myanmar",
+            "langEnglish": "English",
+            "navHome": "Home",
+            "navTrending": "Trending",
+            "navFavorites": "Favorites",
+            "navModApp": "Mod App",        "navProfile": "Profile",
+            "action": "Action",
+            "drama": "Drama",
+            "cartoon": "Cartoon",
+            "romance": "Romance",
+            "myanmar": "Myanmar"
+        },
+        "myanmar": {
+            "title": "WY ရုပ်ရှင်သေတ္တာ",
+            "selectMovie": "ရုပ်ရှင်ကို ရွေးချယ်ပါ",
+            "nowPlaying": "ချက်ချင်းကြည့်ပါ",
+            "noContent": "လက်ရှိ Data များ မရှိပါ",
+            "trendingTitle": "ခေတ်စားနေသော ရုပ်ရှင်များ",
+            "favoritesTitle": "အနှစ်သက်ဆုံးများ",
+            "noFavorites": "အနှစ်သက်ဆုံး ရုပ်ရှင်များ မထည့်ရသေးပါ",
+            "profileTitle": "အသုံးပြုသူအချက်အလက်",
+            "settingsTitle": "ချိန်ညှိချက်များ",
+            "languageLabel": "ဘာသာစကား:",
+            "themeLabel": "မျက်နှာပြင်ပုံစံ:",
+            "resetData": "App Data များ ရှင်းလင်းပါ",
+            "adultContent": "လူကြီးကားများကြည့်ရန် (18+)",
+            "langMyanmar": "မြန်မာ",
+            "langEnglish": "အင်္ဂလိပ်",
+            "navHome": "မူလစာမျက်နှာ",
+            "navTrending": "ခေတ်စားနေသည်",
+            "navFavorites": "အနှစ်သက်ဆုံး",
+            "navModApp": "Mod App",        "navProfile": "အသုံးပြုသူ",
+            "action": "လှုပ်ရှားမှု",
+            "drama": "ဒရာမာ",
+            "cartoon": "ကာတွန်း",
+            "romance": "အချစ်",
+            "myanmar": "မြန်မာ"
+        }
     }
-  }
 }
