@@ -32,11 +32,6 @@
                 "src": "https://www.youtube.com/embed/APH-YOVeFWU"
             },
             {
-                "title": "တရုတ်အက်ရှင်ဇာတ်ကား",
-                "thumb": "https://i.ytimg.com/vi/ZmKP5jemHkM/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLACJXzvJKj4yddgixfFioasXXXh1A",
-                "src": "https://www.youtube.com/embed/ZmKP5jemHkM?list=PL0sa7dis9WVtCUqeeUndDqhd1O3z7M7qO"
-            },
-            {
                 "title": "တရုတ်သိုင်းကား",
                 "thumb": "https://i.ytimg.com/vi/oJyg3fSd3vo/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLAx_BvDBJfANRp1HxYRd-zEnug_EA",
                 "src": "https://www.youtube.com/embed/oJyg3fSd3vo?list=PL0sa7dis9WVtCUqeeUndDqhd1O3z7M7qO"
@@ -701,25 +696,46 @@
         ],
         "cartoon": [
             {
-                "title": "Spirited Away - မြန်မာစာတန်းထိုး (ဇာတ်ကားအပြည့်)",
-                "thumb": "https://img.youtube.com/vi/ByXuk9QqQkk/hqdefault.jpg",
-                "src": "https://www.youtube.com/embed/ByXuk9QqQkk?autoplay=1"
+                "title": "ဘိုဘို 2D ကာတွန်းပေါင်းချုပ်",
+                "thumb": "https://i.ytimg.com/vi/muywTuxWjVQ/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLB0QXeU9hdQzYtNlGxn9jkf_kv-bg",
+                "src": "https://www.youtube.com/embed/muywTuxWjVQ"
             },
             {
-                "title": "Howl's Moving Castle - မြန်မာစာတန်းထိုး (ဇာတ်ကားအပြည့်)",
-                "thumb": "https://img.youtube.com/vi/iwROgK94zcM/hqdefault.jpg",
-                "src": "https://www.youtube.com/embed/iwROgK94zcM?autoplay=1"
+                "title": "Big foot family",
+                "thumb": "https://i.ytimg.com/an_webp/xd7LC9u8sK4/mqdefault_6s.webp?du=3000&sqp=CMCMp8kG&rs=AOn4CLDuKXmcDPtORE9gxg1I8S_WUiKpTg",
+                "src": "https://www.youtube.com/embed/xd7LC9u8sK4"
             },
             {
-                "title": "My Neighbor Totoro - မြန်မာစာတန်းထိုး (ဇာတ်ကားအပြည့်)",
-                "thumb": "https://img.youtube.com/vi/92a7Hj0ijLs/hqdefault.jpg",
-                "src": "https://www.youtube.com/embed/92a7Hj0ijLs?autoplay=1"
+                "title": "(ချန်အန်းသမိုင်း၏ အာနာစက်) တရုတ်3D",
+                "thumb": "data:image/jpeg;base64,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",
+                "src": "https://www.youtube.com/embed/JuHBtW29WAU"
+            },   
+            {
+                "title": "cartoon movie",
+                "thumb": "https://i.ytimg.com/an_webp/CMrDntkiGSY/mqdefault_6s.webp?du=3000&sqp=CPyEp8kG&rs=AOn4CLBAXdQLBiIvnNZIWTfwJ6-YkZhO7Q",
+                "src": "https://www.youtube.com/embed/CMrDntkiGSY"
             },
             {
-                "title": "Princess Mononoke - မြန်မာစာတန်းထိုး (ဇာတ်ကားအပြည့်)",
-                "thumb": "https://img.youtube.com/vi/4OiMOHRDs14/hqdefault.jpg",
-                "src": "https://www.youtube.com/embed/4OiMOHRDs14?autoplay=1"
+                "title": "Tom and Jerry",
+                "thumb": "https://i.ytimg.com/an_webp/xBxNTqO6OU0/mqdefault_6s.webp?du=3000&sqp=CKydp8kG&rs=AOn4CLDYWILhGTHB38jFi6HyDolCW6x4Rw",
+                "src": "https://www.youtube.com/embed/xBxNTqO6OU0"
+            },   
+            {
+                "title": "Tom and Jerry",
+                "thumb": "https://i.ytimg.com/an_webp/PdYuDMdED1E/mqdefault_6s.webp?du=3000&sqp=CMv2pskG&rs=AOn4CLDKQcLeQWmLuQlWT_96EO8BQtdqNw",
+                "src": "https://www.youtube.com/embed/PdYuDMdED1E"
+            },
+            {
+                "title": "TOM and JERRY 2 Hours",
+                "thumb": "https://i.ytimg.com/an_webp/mu54Rm8ICSQ/mqdefault_6s.webp?du=3000&sqp=CPCMp8kG&rs=AOn4CLC_y-B_b5Qqwk0xSpHUJJBsOLyLrg",
+                "src": "https://www.youtube.com/embed/mu54Rm8ICSQ"
+            },   
+            {
+                "title": "Masha and the Bear 2025",
+                "thumb": "https://i.ytimg.com/an_webp/wvI6rQl5w0g/mqdefault_6s.webp?du=3000&sqp=COj4pskG&rs=AOn4CLDO4v5PPkjyHQB4pStxhqyDoVZ8dQ",
+                "src": "https://www.youtube.com/embed/wvI6rQl5w0g"
             }
+            
         ],
         "romance": [
             {
