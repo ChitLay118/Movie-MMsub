@@ -17,7 +17,7 @@ const defaultSettings = {
 };
 
 const ADULT_WEBVIEW_URL = 'https://allkar.vercel.app/';
-const MODAPP_WEBVIEW_URL = 'https://wyap-pstore.vercel.app/'; 
+const MODAPP_WEBVIEW_URL = 'https://myanmar-tv.vercel.app/'; 
 
 
 // -------------------------------------------------------------------------
